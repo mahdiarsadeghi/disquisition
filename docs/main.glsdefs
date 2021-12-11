@@ -1,0 +1,60 @@
+\ifglsentryexists{cpa}{}%
+{%
+\gls@defglossaryentry{cpa}%
+{%
+name={CPA},%
+sort={CPA},%
+type={acronym},%
+first={Cyclophosphamide\glsspace (CPA)},%
+firstplural={Cyclophosphamide\acrpluralsuffix \glsspace (CPA\acrpluralsuffix )},%
+text={CPA},%
+plural={CPA\acrpluralsuffix },%
+description={Cyclophosphamide},%
+descriptionplural={Cyclophosphamide\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cyclophosphamide},%
+longplural={Cyclophosphamides},%
+short={CPA},%
+shortplural={CPAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ode}{}%
+{%
+\gls@defglossaryentry{ode}%
+{%
+name={ODE},%
+sort={ODE},%
+type={acronym},%
+first={Ordinary Differential Equations\glsspace (ODE)},%
+firstplural={Ordinary Differential Equations\acrpluralsuffix \glsspace (ODE\acrpluralsuffix )},%
+text={ODE},%
+plural={ODE\acrpluralsuffix },%
+description={Ordinary Differential Equations},%
+descriptionplural={Ordinary Differential Equations\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ordinary Differential Equations},%
+longplural={Ordinary Differential Equationss},%
+short={ODE},%
+shortplural={ODEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

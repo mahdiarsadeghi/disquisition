@@ -1,0 +1,60 @@
+\chapter{Epidemics}
+\label{chap:epidemic}
+
+COVID-19, a highly contagious disease, has been spreading between continents and has already claimed more than 2.5 million lives globally during its first year~\cite{worldcoronavirus}, and has resulted in a worldwide economic downturn~\cite{coibion2020cost}. Unsurprisingly, this has sparked a renewed  interest in the dynamical modeling and analysis of infectious diseases, particularly in the control theory and dynamical systems communities~\cite{weitz20,parisini20,franco20,levine20,giordano20,leonard20,johnston20,sontag20,sadeghi20}.
+
+There has been much recent theoretical work revisiting, expanding, and studying dynamical and control properties of classical epidemic models so as to understand the spread of COVID-19 during quarantine and social distancing~\cite{HERNANDEZVARGAS2020448,PARE2020345,SCHARBARG2020409,ANSUMALI2020432,HERNANDEZVARGAS2020343,ABUIN2020457},
+including 
+studies of (integral) input to state stability~\cite{ito2020feedback}, network stability of epidemic spread~\cite{tian2020global, liu2020stability}, and optimal control strategies for meta-population models~\cite{liu2020epidemic}.
+These models have been used to predict the potential number of infected individuals and virus-related deaths, as well as to aid government agencies in decision making~\cite{stewart2020control}. 
+Most models are variations on the classical \textit{SIR} model~\cite{kermack1927contribution, brauer2019mathematical, albi2020control} which have been modified to more closely predict the spread of COVID-19.  Some such extensions are listed below:
+
+\begin{itemize}
+	\item[1.  ]Expanding the \textit{SIR} model to include additional population compartments.  Such compartments may describe individuals that are placed under quarantine and/or in social isolation.  Other models explicitly subdivide populations into both symptomatic and asymptomatic infected individuals~\cite{gevertz2020novel, pang2020public, etxeberria2019new, sun2020estimating, gaeta2020asymptomatic, rajabi2020investigating}, as it is currently thought  that COVID-19 is significantly spread through \emph{asymptomatic} individuals \cite{bai2020presumed, yu2020covid, hu2020clinical}.
+	
+	\item[2.  ]Modeling the effects of social distancing for an infection aware population.  This can be done by changing the contact rates between the compartments, or by modeling the behavior of a population that alters its social interactions because of observed infections or deaths \cite{kabir2019analysis, reluga2010game}.  The latter technique has recently been applied to COVID-19~\cite{franco2020feedback, ghaffarzadegan2020simulation}.
+	
+	\item[3.  ]Sub-dividing populations into regions, each described by \emph{local} parameters.  Such regions may be cities, neighborhoods, or communities~\cite{wang2020network}.  This framework allows modelers to capture the virus spread and population mobility geographically~\cite{chinazzi2020effect, flaxman2020estimating, san2020spreading, darabi2020centrality}. These models have been recently used to understand the spread of COVID-19 in China~\cite{kraemer2020effect}, Italy~\cite{gatto2020spread}, Netherlands and Belgium~\cite{van2020adherence}, and India~\cite{pujari2020multi, banerjee2020model}.
+\end{itemize}
+
+Shortening the period of time that populations are socially distanced is economically advantageous~\cite{NBERw27275, coibion2020cost, andersson2020optimal}. The main objective of this study is to reduce the disease burden (here measured as the peak of the infected population) while simultaneously minimizing the length of time that the population is socially distanced.  
+
+The starting point in modern epidemiological modeling   is the Kermack-McKendrick model  \cite{kermack1927contribution, hethcote00} which is known as the Susceptible-Infectious-Removed (SIR) model. It assumes a well-mixed homogeneous population, and it can be written as the three-compartment model:
+\begin{align}\nonumber
+	\dot S(t) &= %-b  S(t) I(t) = 
+	-c\beta S(t) I(t),  \\ \label{sir}
+	\dot I(t) &=  \;\;\; c\beta  S(t) I(t)  - \gamma I(t), \\ \nonumber
+	%b  S(t) I(t)  - \gamma I(t), \\
+	\dot R(t) &= \qquad\qquad\qquad\;\; \gamma I(t),
+\end{align}
+where $S(t),I(t),R(t)$ refer to the susceptible, infective, and removed individuals at time $t$. 
+The product $b=c\beta$ and the parameter $\gamma$ are called the \emph{infection rate} and the \emph{removal rate}, respectively.  We factored the infection rate as $b=c\beta$, where we call $c$ and $\beta$ the \emph{intrinsic infection rate} and the \emph{contact rate} respectively, to emphasize that $b$ depends on both \emph{biological} and \emph{societal} conditions. 
+
+\section{Optimal timing}
+\label{sec:sd}
+
+\ac{SD} as a form of \ac{NPI} has been enacted in many countries as a form of mitigating the spread of COVID-19. 
+There has been a large interest in mathematical modeling to aid in the prediction of both the total infected population and virus-related deaths, as well as to aid government agencies in decision making. As the virus continues to spread, there are both economic and sociological incentives to minimize time spent with strict distancing mandates enforced, and/or to adopt periodically relaxed distancing protocols, which allow for scheduled economic activity.
+The main objective of this section is to reduce the disease burden in a population, here measured as the peak of the infected population, while simultaneously minimizing the length of time the population is socially distanced, utilizing both a single period of social distancing  as well as periodic relaxation.
+A linear relationship is derived among the optimal start time and duration of a single interval of social distancing from an approximation of the classic epidemic \textit{SIR} model.
+Furthermore, there is a sharp phase transition region in start times for a single pulse of distancing, where the peak of the infected population changes rapidly;  notably, this transition occurs well \emph{before} one would intuitively expect.
+By numerical investigation of more sophisticated epidemiological models designed specifically to describe the COVID-19 pandemic, we see that all share remarkably similar dynamic characteristics when contact rates are subject to periodic or one-shot changes, and hence lead us to conclude that these features are \emph{universal} in epidemic models.
+On the other hand, the nonlinearity of epidemic models leads to non-monotone behavior of the peak of infected population under periodic relaxation of social distancing policies.  
+This observation led to hypothesize that an additional single interval social distancing at a \emph{proper time} can significantly decrease the infected peak of periodic policies, and verified numerically. 
+While synchronous quarantine and social distancing mandates across populations effectively minimize the spread of an epidemic over the world, relaxation decisions should not be enacted at the same time for different populations.
+
+After the shelter-in-place ordinances~\cite{wright2020poverty}, social distancing as a form of \ac{NPI} has been enacted in the United States~\cite{wolf2020awareness}, and other countries~\cite{thu2020effect,sarin2020coronavirus} for reducing the spread of the virus, as neither herd immunity nor a viable vaccine yet existed~\cite{mcdonnell2020covid}. 
+Many countries have implemented strict quarantine, isolation, or social distancing policies early in the epidemic~\cite{thu2020effect}, while countries such as Belarus~\cite{gritsenko2020covid} and Sweden~\cite{dahlberg2020effects, cho2020quantifying} have taken more lenient approaches at the onset of the outbreak. 
+Understanding optimal strategies for social distancing will both ``flatten the curve" and hopefully ease the economic burden experienced due to prolonged economic stagnation~\cite{berman2020distributional, courtemanche2020strong, maloney2020determinants}. The goal of this section is thus to investigate the response of the disease to different time-varying social distancing strategies.
+
+\section{Singular purterbation approach}
+
+In order to control highly-contagious and prolonged outbreaks, public health authorities intervene to institute social distancing, lock-down policies, and other \ac{NPI}s. Given the high social, educational, psychological, and economic costs of \ac{NPI}s, authorities tune them, alternatively tightening up or relaxing rules, with the result that, in effect, a relatively flat infection rate results.  
+For example, during the summer in parts of the United States, daily COVID-19 infection numbers dropped to a plateau.
+This paper approaches \ac{NPI} tuning as a control-theoretic problem, starting from a simple dynamic model for social distancing based on the classical SIR epidemics model.
+Using a singular-perturbation approach,
+the plateau becomes a 
+\ac{QSS} of a reduced two-dimensional SIR model regulated by adaptive dynamic feedback.
+It is shown that the \ac{QSS} can be assigned and it is globally asymptotically stable. Interestingly, the dynamic model for social distancing can be interpreted as a nonlinear integral controller.  Problems of data fitting and parameter identifiability are also studied for this model.  The paper also discusses how this simple model allows for a meaningful study of the effect of population size, 
+vaccinations, and the emergence of second waves.
+

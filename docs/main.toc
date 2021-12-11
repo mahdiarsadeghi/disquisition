@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{iii}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{iv}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Acronyms}{v}{chapter*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{vi}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract of the {Dissertation}}{vii}{chapter*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Trial and error}{1}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Chemotherapy}{3}{chapter.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Background}{4}{section.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Modeling}{5}{section.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Optimization}{9}{section.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Immunotherapy}{11}{chapter.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Epidemics}{12}{chapter.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Optimal timing}{13}{section.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Singular purterbation approach}{14}{section.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{16}{chapter.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}First Appendix Headline}{26}{appendix.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Second Appendix Headline}{27}{appendix.40}%

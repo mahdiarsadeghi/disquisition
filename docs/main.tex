@@ -1,0 +1,55 @@
+\documentclass[PHD]{macro/neu}
+
+\title{Control and Decision Making in Systems Biology}
+
+\author{Mahdiar Sadeghi}
+
+\nuid{001778298}
+
+
+\dept{Electrical and Computer Engineering}
+
+\degreename{Electrical Engineering}
+
+\field{Communication, Control, and Signal Processing}
+
+\submitdate{December 2021}
+
+\principaladviser{Prof. Eduardo Sontag}
+
+\input{macro/macro}
+
+
+\begin{document}
+\pdfbookmark[1]{Cover}{cover}
+\titlepage
+
+\begin{frontmatter}
+
+\input{tex/dedication.tex}
+
+\pdfbookmark[1]{Table of Contents}{contents}
+\tableofcontents
+\listoffigures
+\newpage\ssp
+\listoftables
+\input{tex/acronyms.tex}
+\input{tex/acknowledgments.tex}
+\input{tex/abstract.tex}
+
+\end{frontmatter}
+\pagestyle{headings}
+
+\input{tex/intro.tex}
+\input{tex/chemo.tex}
+\input{tex/immune.tex}
+\input{tex/epidemic.tex}
+
+\input{tex/conclusion.tex}
+\printbibliography
+
+\appendix
+\chapter{First Appendix Headline}
+\chapter{Second Appendix Headline}
+\printindex
+\end{document}
