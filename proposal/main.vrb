@@ -1,0 +1,24 @@
+\frametitle{Tumor growth model~\footfullcite {simeoni2004predictive}.}
+The minimal version of the tumor growth model with $n=2$:
+	\begin{subequations}
+		\begin{align}
+			\dot x_1(t) &= \frac{\lambda_0 x_1(t)}{(1+(\frac{\lambda_0 y(t)}{\lambda_1})^\Psi)^\frac{1}{\Psi}} - k_2 x_1(t) u(t), \\
+			\dot x_2(t) &= k_2 x_1(t) u(t) - k_1 x_2(t), \\
+			y(t) &= x_1(t) + x_2(t).
+		\end{align}
+	\end{subequations}
+	Let's try SIAN with the following code.
+	\begin{lstlisting}
+		dx1/dt = l0*x1/(1+(l0*y/l1)^P)^(1/P) - k2*x1*u(t),
+		dx2/dt = k2*x1*u(t) - k1*x2,
+		y = x1+x2
+	\end{lstlisting}
+	\color{red} error message:StringTools:-RegMatch. \\
+	\color{black} The solution is to use an equivalence form of the model. But why?
+	\begin{lstlisting}
+		dx1/dt = x1*w-k2*u(t)*x1,
+		dx2/dt = k2*u(t)*x1-k1*x2,
+		dz/dt = psi*(x1*w-k1*x2)*z/y,
+		dw/dt = -(x1*w-k1*x2)*z*w/(y*(1+z)),
+		y= x1+x2
+	\end{lstlisting}

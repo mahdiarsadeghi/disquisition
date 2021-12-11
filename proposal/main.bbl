@@ -1,0 +1,248 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{miao2011identifiability}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d55f6a62d37d603d1165dc9ce53b4a06}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Hongyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=62a5cb8bc55a9fc036aaac29d6443452}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod}}}%
+        {{hash=765627db3be030b6a298391ae8f35ed8}{%
+           family={Perelson},
+           familyi={P\bibinitperiod},
+           given={Alan\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ce266e9ab2542aec250e47b8de02009c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hulin},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SIAM}%
+      }
+      \strng{namehash}{326e98578ec392e2e030ccc88a769570}
+      \strng{fullhash}{a45d4a25cc98fc517182409e39494ecd}
+      \strng{bibnamehash}{326e98578ec392e2e030ccc88a769570}
+      \strng{authorbibnamehash}{326e98578ec392e2e030ccc88a769570}
+      \strng{authornamehash}{326e98578ec392e2e030ccc88a769570}
+      \strng{authorfullhash}{a45d4a25cc98fc517182409e39494ecd}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM review}
+      \field{number}{1}
+      \field{title}{On identifiability of nonlinear ODE models and applications in viral dynamics}
+      \field{volume}{53}
+      \field{year}{2011}
+      \field{pages}{3\bibrangedash 39}
+      \range{pages}{37}
+    \endentry
+    \entry{parra2020pdeparams}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c137298e04d5abc376854d26af85ea18}{%
+           family={Parra-Rojas},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={César},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d7ec63687cee4a77769195ccdfa60786}{%
+           family={Hernandez-Vargas},
+           familyi={H\bibinithyphendelim V\bibinitperiod},
+           given={Esteban\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b7b6404c0b57d6fbc01bcc967b296a1c}
+      \strng{fullhash}{b7b6404c0b57d6fbc01bcc967b296a1c}
+      \strng{bibnamehash}{b7b6404c0b57d6fbc01bcc967b296a1c}
+      \strng{authorbibnamehash}{b7b6404c0b57d6fbc01bcc967b296a1c}
+      \strng{authornamehash}{b7b6404c0b57d6fbc01bcc967b296a1c}
+      \strng{authorfullhash}{b7b6404c0b57d6fbc01bcc967b296a1c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{8}
+      \field{title}{PDEparams: Parameter fitting toolbox for partial differential equations in python}
+      \field{volume}{36}
+      \field{year}{2020}
+      \field{pages}{2618\bibrangedash 2619}
+      \range{pages}{2}
+    \endentry
+    \entry{raue2015data2dynamics}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=5673de622f4072d49f240eb7c44a4cb7}{%
+           family={Raue},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a5f07c2563e259f80e7642b43193d86}{%
+           family={Steiert},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3a30caeaa6a36b4a3b7e4562913a6468}{%
+           family={Schelker},
+           familyi={S\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd1f652bd8c68637aee22fdc61ad2a47}{%
+           family={Kreutz},
+           familyi={K\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f32445c3722f2b530a8ef626aaf26eca}{%
+           family={Maiwald},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=556c0130fb001551d1f9bbfbe5ebba85}{%
+           family={Hass},
+           familyi={H\bibinitperiod},
+           given={Helge},
+           giveni={H\bibinitperiod}}}%
+        {{hash=972df94c2afd0c71d96914866df413e8}{%
+           family={Vanlier},
+           familyi={V\bibinitperiod},
+           given={Joep},
+           giveni={J\bibinitperiod}}}%
+        {{hash=62c59b1b0837ea3269d039245e34266d}{%
+           family={Tönsing},
+           familyi={T\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f13a54d9fc0171be407341707b6a74c9}{%
+           family={Adlung},
+           familyi={A\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e80a14775e0f5e12dc4669fea0b2c1d4}{%
+           family={Engesser},
+           familyi={E\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a910cae202766a6456b48067768c4476}
+      \strng{fullhash}{ef79669ab00710de5e687dc81aba8cd0}
+      \strng{bibnamehash}{a910cae202766a6456b48067768c4476}
+      \strng{authorbibnamehash}{a910cae202766a6456b48067768c4476}
+      \strng{authornamehash}{a910cae202766a6456b48067768c4476}
+      \strng{authorfullhash}{ef79669ab00710de5e687dc81aba8cd0}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{number}{21}
+      \field{title}{Data2Dynamics: a modeling environment tailored to parameter estimation in dynamical systems}
+      \field{volume}{31}
+      \field{year}{2015}
+      \field{pages}{3558\bibrangedash 3560}
+      \range{pages}{3}
+    \endentry
+    \entry{simeoni2004predictive}{article}{}
+      \name{author}{9}{}{%
+        {{hash=1f63015b312b4a6ecebe104636ca1991}{%
+           family={Simeoni},
+           familyi={S\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff07d20ae2f16d3edf2f71ffcc4e2a1e}{%
+           family={Magni},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d22031f50e408846bf01775c7e4d7ad2}{%
+           family={Cammia},
+           familyi={C\bibinitperiod},
+           given={Cristiano},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c8fa6d701abe6af6996537bbbcca0feb}{%
+           family={De\bibnamedelima Nicolao},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=28fb26e3978c4d16a016e94adec0fc9a}{%
+           family={Croci},
+           familyi={C\bibinitperiod},
+           given={Valter},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9139736ec46dcd2e7164394383075028}{%
+           family={Pesenti},
+           familyi={P\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=30a669bdd26745578206d1762d017750}{%
+           family={Germani},
+           familyi={G\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+        {{hash=858f0981a40b52eb6118f31bfcf4787f}{%
+           family={Poggesi},
+           familyi={P\bibinitperiod},
+           given={Italo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=570dac99861cd98fa4663d116765917b}{%
+           family={Rocchetti},
+           familyi={R\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AACR}%
+      }
+      \strng{namehash}{749f45105be65e5e79a8cd830ac6f4c7}
+      \strng{fullhash}{11577cf2b29ee8b12618d333fb1b65ce}
+      \strng{bibnamehash}{749f45105be65e5e79a8cd830ac6f4c7}
+      \strng{authorbibnamehash}{749f45105be65e5e79a8cd830ac6f4c7}
+      \strng{authornamehash}{749f45105be65e5e79a8cd830ac6f4c7}
+      \strng{authorfullhash}{11577cf2b29ee8b12618d333fb1b65ce}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cancer research}
+      \field{number}{3}
+      \field{title}{Predictive pharmacokinetic-pharmacodynamic modeling of tumor growth kinetics in xenograft models after administration of anticancer agents}
+      \field{volume}{64}
+      \field{year}{2004}
+      \field{pages}{1094\bibrangedash 1101}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

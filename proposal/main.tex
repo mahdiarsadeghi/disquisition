@@ -33,32 +33,44 @@
 \usepackage{biblatex}
 \addbibresource{references.bib}
 
-\title[Identifiability Tutorial]{Computational Identifiability Analysis Tutorial} 
+\title[Proposal Review]{Control and Decision Making \\ in Systems Biology} 
 
-\author{Mahdiar Sadeghi} 
+\author{Northeastern University} 
 \medskip
 
-\date{November 5, 2021} 
+\date{December 13, 2021} 
 
 \begin{document}
 
 \begin{frame}
-\titlepage % Print the title page as the first slide
+	\maketitle
+	\small \hspace{3cm}
+	{\begin{tabular}{r@{}l}
+			Presenter: \ & Mahdiar Sadeghi \\
+			Advisor:   \  & Prof. Eduardo Sontag \\
+			Committee: \  & Dr. Irina Kareva \\
+			& Prof. Mark Niedre \\
+			& Prof. Carey Rappaport \\
+			& Prof. Bahram Shafai
+		\end{tabular}
+	}
 \end{frame}
 
 %-------------------------------------------------%
 \section{Outline}
 
-\begin{frame}{Computational identifiability analysis}
-	The objective is to review the mathematical basics of identifiability and a tutorial to computational packages available. 
+\begin{frame}{Outline}
+	The objective of is to have an overview of what I have done during my PhD. 
 	\vspace{15pt}
     \begin{itemize}
         \setlength\itemsep{1em}
-        \item \textbf{Review:} mathematical definitions for identifiability.
+        \item Mahdiar Sadeghi (presenter).
         
-        \item \textbf{SIAN:} an open source software for structural identifiabilty.
-    
-    	\item \textbf{Profile likelihood:} a useful tool for practical identifiability.
+        \item Prof. Eduardo Sontag (advisor).
+        \item Dr. Irina Kareva
+        \item Prof. Mark Niedre
+        \item Prof. Carey Rappaport
+        \item Prof. Bahram Shafai
     \end{itemize}
 \end{frame}
 
@@ -133,17 +145,17 @@
 %-------------------------------------------------%
 \section{SIAN}
 
-\begin{frame}{Structural Identifiability Analyzer (SIAN)\footfullcite{hong2019sian}}
-	\begin{itemize}
-		\item Open source structural identifiability software in Maple.
-		\item Here is a benchmark for comparing SIAN performance with other available identifiability pacakges.
-			\begin{figure}
-				\includegraphics[width=1\linewidth]{sian-benchmark.png}
-			\end{figure}
-		\item A Maple app running SIAN online: \url{https://maple.cloud/app/6509768948056064}.
-		\item A Julia package which often outperforms SIAN: \url{https://github.com/SciML/StructuralIdentifiability.jl}.
-	\end{itemize}
-\end{frame}
+%\begin{frame}{Structural Identifiability Analyzer (SIAN)\footfullcite{hong2019sian}}
+%	\begin{itemize}
+%		\item Open source structural identifiability software in Maple.
+%		\item Here is a benchmark for comparing SIAN performance with other available identifiability pacakges.
+%			\begin{figure}
+%				\includegraphics[width=1\linewidth]{sian-benchmark.png}
+%			\end{figure}
+%		\item A Maple app running SIAN online: \url{https://maple.cloud/app/6509768948056064}.
+%		\item A Julia package which often outperforms SIAN: \url{https://github.com/SciML/StructuralIdentifiability.jl}.
+%	\end{itemize}
+%\end{frame}
 
 
 \subsection{Basic examples}
