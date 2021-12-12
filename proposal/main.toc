@@ -17,6 +17,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{Epidemic}{14}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{1}{Singel interval SD}{16}{0}{4}
+\beamer@subsectionintoc {4}{1}{Singel interval SD}{15}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Acknowledgment}{17}{0}{5}
+\beamer@subsectionintoc {4}{2}{Singular perturbation}{18}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Acknowledgment}{19}{0}{5}

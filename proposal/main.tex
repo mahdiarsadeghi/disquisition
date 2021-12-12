@@ -242,6 +242,8 @@ Model is fitted to the tumor and immune data in mouse experiments.
 	\end{itemize}
 \end{frame}
 
+\subsection{Singel interval SD}
+
 \begin{frame}{Early days and limited data!}
 	\vspace{0.5cm}
 	\hspace{1cm}
@@ -251,14 +253,14 @@ Model is fitted to the tumor and immune data in mouse experiments.
 			\fill[blue!30!white] (-2,0) ellipse (5 and 5);
 			\fill[red!30!white]  (+2,0) ellipse (5 and 5);
 		\end{scope}
-%		\draw[ultra thick, ->] (0.2,2.5) arc (0:-160:-2);
-%		\draw[ultra thick, ->] (-4.5,+3) arc (-10:-185:-2.2);
-%		\draw[ultra thick, ->] (-0.2,-2.5) arc (0:-165:+2.2);
+		%		\draw[ultra thick, ->] (0.2,2.5) arc (0:-160:-2);
+		%		\draw[ultra thick, ->] (-4.5,+3) arc (-10:-185:-2.2);
+		%		\draw[ultra thick, ->] (-0.2,-2.5) arc (0:-165:+2.2);
 		\draw[ultra thick, ->] (4.5,-3) arc (-10:-185:2.2);
-%		\draw [ultra thick, ->] (-0.2,+1.5) -- (-0.2,-1.5);
-%		\draw [ultra thick, ->] (+0.2,-1.5) -- (+0.2,+1.5);
+		%		\draw [ultra thick, ->] (-0.2,+1.5) -- (-0.2,-1.5);
+		%		\draw [ultra thick, ->] (+0.2,-1.5) -- (+0.2,+1.5);
 		\draw [ultra thick, ->] (4.5,+2) -- (4.5,-2);
-%		\draw [ultra thick, ->] (-4.5,-2) -- (-4.5,+2);
+		%		\draw [ultra thick, ->] (-4.5,-2) -- (-4.5,+2);
 		\node at (0,+2) {\st{Data analysis}};
 		\node at (4.5,+2.5)  {Modeling};
 		\node at (4.5,-2.5)  {Prediction};
@@ -269,8 +271,6 @@ Model is fitted to the tumor and immune data in mouse experiments.
 		\node at (+6,4.5)[font=\large]    {Theory};
 	\end{tikzpicture}
 \end{frame}
-
-\subsection{Singel interval SD}
 
 \begin{frame}{Mathematical model for a single interval SD}
 	Assuming that $\beta$, the disease transmission rate, can be effectively reduced from $\beta_{n}$ (contact rate during normal time for non-distanced population) to $\beta_{d}$ (contact rate during social distancing) during distancing. \\ \vspace{0.5cm}
@@ -287,6 +287,16 @@ Model is fitted to the tumor and immune data in mouse experiments.
 	\hspace{2cm} \includegraphics[width=0.6\textwidth]{epidemic-sd.png}\\
 \end{frame}
 
+\begin{frame}{Optimize start time $t_s$ and duration $t_d$ of SD.}
+	\includegraphics[width=0.49\textwidth]{epidemic-sir-heatmap.png}
+	\includegraphics[width=0.49\textwidth]{epidemic-sir-contour.png} \\
+
+\end{frame}
+
+\subsection{Singular perturbation}
+\begin{frame}{Optimize start time $t_s$ and duration $t_d$.}
+	
+\end{frame}
 
 %-------------------------------------------------%
 \section{Acknowledgment}
