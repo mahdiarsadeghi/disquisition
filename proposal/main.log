@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  11 DEC 2021 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  12 DEC 2021 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,42 +759,7 @@ y)))
 y
 \beamer@sidebarwidth=\dimen284
 \beamer@headheight=\dimen285
-)) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2021/03/24 3.56 The Babel package
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/03/24 3.56 Babel common definitions
-\babel@savecnt=\count322
-\U@D=\dimen286
-\l@babelnohyphens=\language87
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
-)
-LaTeX Info: Redefining \textlatin on input line 717.
-\bbl@dirlevel=\count323
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 108.
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks44
-\inpenc@posthook=\toks45
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
@@ -810,8 +775,8 @@ File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen287
-\pgf@nodesepend=\dimen288
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -826,10 +791,10 @@ Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen289
-\pgffor@skip=\dimen290
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -838,39 +803,74 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count324
-\pgfplotmarksize=\dimen291
+\pgf@plot@mark@count=\count322
+\pgfplotmarksize=\dimen290
 )
-\tikz@lastx=\dimen292
-\tikz@lasty=\dimen293
-\tikz@lastxsaved=\dimen294
-\tikz@lastysaved=\dimen295
-\tikz@lastmovetox=\dimen296
-\tikz@lastmovetoy=\dimen297
-\tikzleveldistance=\dimen298
-\tikzsiblingdistance=\dimen299
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
 \tikz@figbox=\box73
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count325
-\tikznumberofchildren=\count326
-\tikznumberofcurrentchild=\count327
-\tikz@fig@count=\count328
+\tikztreelevel=\count323
+\tikznumberofchildren=\count324
+\tikznumberofcurrentchild=\count325
+\tikz@fig@count=\count326
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count329
-\pgfmatrixcurrentcolumn=\count330
-\pgf@matrix@numberofcolumns=\count331
+\pgfmatrixcurrentrow=\count327
+\pgfmatrixcurrentcolumn=\count328
+\pgf@matrix@numberofcolumns=\count329
 )
-\tikz@expandcount=\count332
+\tikz@expandcount=\count330
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count331
+\U@D=\dimen299
+\l@babelnohyphens=\language87
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+)
+LaTeX Info: Redefining \textlatin on input line 717.
+\bbl@dirlevel=\count332
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks46
+\inpenc@posthook=\toks47
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen300
@@ -911,19 +911,31 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip68
 \subfig@bottom=\skip69
 )
+(/usr/local/texlive/2021/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks48
+\SOUL@lasttoken=\toks49
+\SOUL@cmds=\toks50
+\SOUL@buffer=\toks51
+\SOUL@token=\toks52
+\SOUL@spaceskip=\skip70
+\SOUL@ttwidth=\dimen315
+\SOUL@uldp=\dimen316
+\SOUL@ulht=\dimen317
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count341
 \lst@gtempboxa=\box77
-\lst@token=\toks48
+\lst@token=\toks53
 \lst@length=\count342
-\lst@currlwidth=\dimen315
+\lst@currlwidth=\dimen318
 \lst@column=\count343
 \lst@pos=\count344
-\lst@lostspace=\dimen316
-\lst@width=\dimen317
+\lst@lostspace=\dimen319
+\lst@width=\dimen320
 \lst@newlines=\count345
 \lst@lineno=\count346
-\lst@maxwidth=\dimen318
+\lst@maxwidth=\dimen321
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -943,10 +955,10 @@ ings'
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
-\athelp@=\toks49
-\minaw@=\dimen319
-\bigaw@=\dimen320
-\minCDarrowwidth=\dimen321
+\athelp@=\toks54
+\minaw@=\dimen322
+\bigaw@=\dimen323
+\minCDarrowwidth=\dimen324
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsxtra.sty
 Package: amsxtra 1999/11/15 v1.2c AMS extra commands
@@ -1010,14 +1022,14 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorder@0=\count390
 \blx@entrysetcounter=\count391
 \blx@biblioinstance=\count392
-\labelnumberwidth=\skip70
-\labelalphawidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
+\labelnumberwidth=\skip71
+\labelalphawidth=\skip72
+\biblabelsep=\skip73
+\bibitemsep=\skip74
+\bibnamesep=\skip75
+\bibinitsep=\skip76
+\bibparsep=\skip77
+\bibhang=\skip78
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language88
@@ -1100,20 +1112,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count461
 \c@pageref=\count462
 \c@savedpageref=\count463
-\shorthandwidth=\skip78
-\shortjournalwidth=\skip79
-\shortserieswidth=\skip80
-\shorttitlewidth=\skip81
-\shortauthorwidth=\skip82
-\shorteditorwidth=\skip83
-\locallabelnumberwidth=\skip84
-\locallabelalphawidth=\skip85
-\localshorthandwidth=\skip86
-\localshortjournalwidth=\skip87
-\localshortserieswidth=\skip88
-\localshorttitlewidth=\skip89
-\localshortauthorwidth=\skip90
-\localshorteditorwidth=\skip91
+\shorthandwidth=\skip79
+\shortjournalwidth=\skip80
+\shortserieswidth=\skip81
+\shorttitlewidth=\skip82
+\shortauthorwidth=\skip83
+\shorteditorwidth=\skip84
+\locallabelnumberwidth=\skip85
+\locallabelalphawidth=\skip86
+\localshorthandwidth=\skip87
+\localshortjournalwidth=\skip88
+\localshortserieswidth=\skip89
+\localshorttitlewidth=\skip90
+\localshortauthorwidth=\skip91
+\localshorteditorwidth=\skip92
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1189,24 +1201,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1245,16 +1257,16 @@ LaTeX Font Info:    ... okay on input line 43.
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count478
-\scratchdimen=\dimen322
+\scratchdimen=\dimen325
 \scratchbox=\box80
 \nofMPsegments=\count479
 \nofMParguments=\count480
-\everyMPshowfont=\toks50
+\everyMPshowfont=\toks55
 \MPscratchCnt=\count481
-\MPscratchDim=\dimen323
+\MPscratchDim=\dimen326
 \MPnumerator=\count482
 \makeMPintoPDFobject=\count483
-\everyMPtoPDFconversion=\toks51
+\everyMPtoPDFconversion=\toks56
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1264,7 +1276,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1278,70 +1290,70 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count484
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 45.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 45.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 45.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 45.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 45.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 43.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 43.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 43.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 43.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 43.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 43.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 43.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 45.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 45.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 43
+(Font)              `pureletters' in the math version `normal' on input line 45
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 43
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 45
 .
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 43.
+(Font)              `pureletters' in the math version `bold' on input line 45.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 43
+(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 45
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 43.
+ut line 45.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1389,23 +1401,23 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+Package biblatex Info: Reference section=0 on input line 45.
+Package biblatex Info: Reference segment=0 on input line 45.
  (./main.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 57.
+ut line 59.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1421,27 +1433,75 @@ thkerncmss.
 
 ] [5
 
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)) [6
+] [6
 
 ]
-\openout4 = `main.vrb'.
+<chemo-metronomic.png, id=299, 906.7476pt x 248.127pt>
+File: chemo-metronomic.png Graphic file (type png)
+<use chemo-metronomic.png>
+Package pdftex.def Info: chemo-metronomic.png  used on input line 154.
+(pdftex.def)             Requested size: 278.83713pt x 76.30142pt.
+ [7
 
- (./main.vrb) [7
+ <./chemo-metronomic.png>] [8
 
-] [8
+]
+<chemo-optimalcontrol1.png, id=381, 1605.8394pt x 1204.5pt>
+File: chemo-optimalcontrol1.png Graphic file (type png)
+<use chemo-optimalcontrol1.png>
+Package pdftex.def Info: chemo-optimalcontrol1.png  used on input line 183.
+(pdftex.def)             Requested size: 278.83713pt x 209.13654pt.
+ [9
 
-] [9
+ <./chemo-optimalcontrol1.png (PNG copy)>]
+<chemo-optimalcontrol2.png, id=417, 1605.8394pt x 1204.5pt>
+File: chemo-optimalcontrol2.png Graphic file (type png)
+<use chemo-optimalcontrol2.png>
+Package pdftex.def Info: chemo-optimalcontrol2.png  used on input line 188.
+(pdftex.def)             Requested size: 278.83713pt x 209.13654pt.
+ [10
 
-] [10
+ <./chemo-optimalcontrol2.png (PNG copy)>]
+<chemo-comparison-oc1.jpeg, id=453, 1124.2pt x 843.15pt>
+File: chemo-comparison-oc1.jpeg Graphic file (type jpg)
+<use chemo-comparison-oc1.jpeg>
+Package pdftex.def Info: chemo-comparison-oc1.jpeg  used on input line 196.
+(pdftex.def)             Requested size: 136.63171pt x 102.47304pt.
+<chemo-comparison-oc2.jpeg, id=454, 1124.2pt x 843.15pt>
+File: chemo-comparison-oc2.jpeg Graphic file (type jpg)
+<use chemo-comparison-oc2.jpeg>
+Package pdftex.def Info: chemo-comparison-oc2.jpeg  used on input line 196.
+(pdftex.def)             Requested size: 136.63171pt x 102.47304pt.
+ [11
+
+ <./chemo-comparison-oc1.jpeg> <./chemo-comparison-oc2.jpeg>]
+<chemo-final.png, id=492, 1806.75pt x 1003.5894pt>
+File: chemo-final.png Graphic file (type png)
+<use chemo-final.png>
+Package pdftex.def Info: chemo-final.png  used on input line 201.
+(pdftex.def)             Requested size: 278.83713pt x 154.88095pt.
+ [12
+
+ <./chemo-final.png (PNG copy)>] [13
+
+] [14
+
+] [15
+
+]
+<epidemic-sd.png, id=640, 469.755pt x 267.399pt>
+File: epidemic-sd.png Graphic file (type png)
+<use epidemic-sd.png>
+Package pdftex.def Info: epidemic-sd.png  used on input line 288.
+(pdftex.def)             Requested size: 167.30397pt x 95.23128pt.
+ [16
+
+ <./epidemic-sd.png>]
+Overfull \hbox (21.17944pt too wide) in paragraph at lines 312--312
+[] 
+ []
+
+[17
 
 ]
 \tf@nav=\write7
@@ -1455,45 +1515,46 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8E87097FFD40182F8DBC1A363F732154;1195.
+(rerunfilecheck)             Checksum: DBC225C3A9644BE41B1C45065AF4DC8E;1027.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33410 strings out of 478994
- 629857 string characters out of 5858184
- 1497383 words of memory out of 5000000
- 50232 multiletter control sequences out of 15000+600000
- 423376 words of font info for 81 fonts, out of 8000000 for 9000
+ 33419 strings out of 478994
+ 632816 string characters out of 5858184
+ 1353877 words of memory out of 5000000
+ 50223 multiletter control sequences out of 15000+600000
+ 422240 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,15n,132p,737b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,15n,132p,737b,2100s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsi0800.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (10 pages, 273140 bytes).
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsi0800.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
+Output written on main.pdf (17 pages, 1405969 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
- 33 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 733 compressed objects within 8 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
