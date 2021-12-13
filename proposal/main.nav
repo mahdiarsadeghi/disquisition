@@ -111,25 +111,45 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {17}{17}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {15}{17}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{4}{2}{18}{Singular perturbation}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {4}{2}{1}{18/18}{Singular perturbation}{0}}
+\headcommand {\slideentry {4}{1}{4}{18/18}{Singel interval SD}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {18}{18}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {14}{18}}
+\headcommand {\beamer@subsectionpages {15}{18}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{19}{Periodic SD}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{Acknowledgment}{19}{Acknowledgment}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{1}{19/19}{}{0}}
+\headcommand {\slideentry {4}{2}{1}{19/19}{Periodic SD}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@partpages {1}{19}}
-\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\beamer@sectionpages {19}{19}}
-\headcommand {\beamer@documentpages {19}}
-\headcommand {\gdef \inserttotalframenumber {19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{2}{20/20}{Periodic SD}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{2}{3}{21/21}{Periodic SD}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {19}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{4}{3}{22}{Singular perturbation}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{3}{1}{22/22}{Singular perturbation}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{22}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {14}{22}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {22}{22}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Acknowledgment}{23}{Acknowledgment}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{23/23}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@partpages {1}{23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\beamer@sectionpages {23}{23}}
+\headcommand {\beamer@documentpages {23}}
+\headcommand {\gdef \inserttotalframenumber {23}}

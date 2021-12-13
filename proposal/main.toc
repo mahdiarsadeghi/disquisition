@@ -19,6 +19,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {4}{1}{Singel interval SD}{15}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{2}{Singular perturbation}{18}{0}{4}
+\beamer@subsectionintoc {4}{2}{Periodic SD}{19}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Acknowledgment}{19}{0}{5}
+\beamer@subsectionintoc {4}{3}{Singular perturbation}{22}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Acknowledgment}{23}{0}{5}

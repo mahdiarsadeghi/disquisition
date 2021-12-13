@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  12 DEC 2021 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  12 DEC 2021 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1436,49 +1436,49 @@ thkerncmss.
 ] [6
 
 ]
-<chemo-metronomic.png, id=310, 906.7476pt x 248.127pt>
+<chemo-metronomic.png, id=321, 906.7476pt x 248.127pt>
 File: chemo-metronomic.png Graphic file (type png)
 <use chemo-metronomic.png>
-Package pdftex.def Info: chemo-metronomic.png  used on input line 154.
+Package pdftex.def Info: chemo-metronomic.png  used on input line 153.
 (pdftex.def)             Requested size: 278.83713pt x 76.30142pt.
  [7
 
  <./chemo-metronomic.png>] [8
 
 ]
-<chemo-optimalcontrol1.png, id=394, 1605.8394pt x 1204.5pt>
+<chemo-optimalcontrol1.png, id=407, 1605.8394pt x 1204.5pt>
 File: chemo-optimalcontrol1.png Graphic file (type png)
 <use chemo-optimalcontrol1.png>
-Package pdftex.def Info: chemo-optimalcontrol1.png  used on input line 183.
+Package pdftex.def Info: chemo-optimalcontrol1.png  used on input line 182.
 (pdftex.def)             Requested size: 278.83713pt x 209.13654pt.
  [9
 
  <./chemo-optimalcontrol1.png (PNG copy)>]
-<chemo-optimalcontrol2.png, id=431, 1605.8394pt x 1204.5pt>
+<chemo-optimalcontrol2.png, id=445, 1605.8394pt x 1204.5pt>
 File: chemo-optimalcontrol2.png Graphic file (type png)
 <use chemo-optimalcontrol2.png>
-Package pdftex.def Info: chemo-optimalcontrol2.png  used on input line 188.
+Package pdftex.def Info: chemo-optimalcontrol2.png  used on input line 187.
 (pdftex.def)             Requested size: 278.83713pt x 209.13654pt.
  [10
 
  <./chemo-optimalcontrol2.png (PNG copy)>]
-<chemo-comparison-oc1.jpeg, id=468, 1124.2pt x 843.15pt>
+<chemo-comparison-oc1.jpeg, id=484, 1124.2pt x 843.15pt>
 File: chemo-comparison-oc1.jpeg Graphic file (type jpg)
 <use chemo-comparison-oc1.jpeg>
-Package pdftex.def Info: chemo-comparison-oc1.jpeg  used on input line 196.
+Package pdftex.def Info: chemo-comparison-oc1.jpeg  used on input line 195.
 (pdftex.def)             Requested size: 136.63171pt x 102.47304pt.
-<chemo-comparison-oc2.jpeg, id=469, 1124.2pt x 843.15pt>
+<chemo-comparison-oc2.jpeg, id=485, 1124.2pt x 843.15pt>
 File: chemo-comparison-oc2.jpeg Graphic file (type jpg)
 <use chemo-comparison-oc2.jpeg>
-Package pdftex.def Info: chemo-comparison-oc2.jpeg  used on input line 196.
+Package pdftex.def Info: chemo-comparison-oc2.jpeg  used on input line 195.
 (pdftex.def)             Requested size: 136.63171pt x 102.47304pt.
  [11
 
  <./chemo-comparison-oc1.jpeg> <./chemo-comparison-oc2.jpeg>]
-<chemo-final.png, id=508, 1806.75pt x 1003.5894pt>
+<chemo-final.png, id=524, 1806.75pt x 1003.5894pt>
 File: chemo-final.png Graphic file (type png)
 <use chemo-final.png>
-Package pdftex.def Info: chemo-final.png  used on input line 201.
+Package pdftex.def Info: chemo-final.png  used on input line 200.
 (pdftex.def)             Requested size: 278.83713pt x 154.88095pt.
  [12
 
@@ -1489,34 +1489,104 @@ Package pdftex.def Info: chemo-final.png  used on input line 201.
 ] [15
 
 ]
-<epidemic-sd.png, id=661, 469.755pt x 267.399pt>
+<epidemic-sd.png, id=681, 469.755pt x 267.399pt>
 File: epidemic-sd.png Graphic file (type png)
 <use epidemic-sd.png>
-Package pdftex.def Info: epidemic-sd.png  used on input line 288.
+Package pdftex.def Info: epidemic-sd.png  used on input line 287.
 (pdftex.def)             Requested size: 167.30397pt x 95.23128pt.
  [16
 
  <./epidemic-sd.png>]
-<epidemic-sir-heatmap.png, id=703, 433.62pt x 289.08pt>
+<epidemic-sir-heatmap.png, id=725, 433.62pt x 289.08pt>
 File: epidemic-sir-heatmap.png Graphic file (type png)
 <use epidemic-sir-heatmap.png>
-Package pdftex.def Info: epidemic-sir-heatmap.png  used on input line 294.
+Package pdftex.def Info: epidemic-sir-heatmap.png  used on input line 293.
 (pdftex.def)             Requested size: 136.63171pt x 91.08714pt.
-<epidemic-sir-contour.png, id=704, 433.62pt x 289.08pt>
+<epidemic-sir-contour.png, id=726, 433.62pt x 289.08pt>
 File: epidemic-sir-contour.png Graphic file (type png)
 <use epidemic-sir-contour.png>
-Package pdftex.def Info: epidemic-sir-contour.png  used on input line 294.
+Package pdftex.def Info: epidemic-sir-contour.png  used on input line 293.
 (pdftex.def)             Requested size: 136.63171pt x 91.08714pt.
  [17
 
- <./epidemic-sir-heatmap.png> <./epidemic-sir-contour.png>] [18
+ <./epidemic-sir-heatmap.png> <./epidemic-sir-contour.png>]
+File: epidemic-sir-heatmap.png Graphic file (type png)
+<use epidemic-sir-heatmap.png>
+Package pdftex.def Info: epidemic-sir-heatmap.png  used on input line 305.
+(pdftex.def)             Requested size: 89.22992pt x 59.48674pt.
+<epidemic-sair.png, id=767, 433.62pt x 289.08pt>
+File: epidemic-sair.png Graphic file (type png)
+<use epidemic-sair.png>
+Package pdftex.def Info: epidemic-sair.png  used on input line 305.
+(pdftex.def)             Requested size: 89.22992pt x 59.48674pt.
+<epidemic-fsir.png, id=768, 433.62pt x 289.08pt>
+File: epidemic-fsir.png Graphic file (type png)
+<use epidemic-fsir.png>
+Package pdftex.def Info: epidemic-fsir.png  used on input line 305.
+(pdftex.def)             Requested size: 89.22992pt x 59.48674pt.
+<epidemic-sixsir.png, id=769, 433.62pt x 289.08pt>
+File: epidemic-sixsir.png Graphic file (type png)
+<use epidemic-sixsir.png>
+Package pdftex.def Info: epidemic-sixsir.png  used on input line 305.
+(pdftex.def)             Requested size: 89.22992pt x 59.48674pt.
+<epidemic-siqr.png, id=770, 433.62pt x 289.08pt>
+File: epidemic-siqr.png Graphic file (type png)
+<use epidemic-siqr.png>
+Package pdftex.def Info: epidemic-siqr.png  used on input line 305.
+(pdftex.def)             Requested size: 89.22992pt x 59.48674pt.
+<epidemic-sidarthe.png, id=771, 433.62pt x 289.08pt>
+File: epidemic-sidarthe.png Graphic file (type png)
+<use epidemic-sidarthe.png>
+Package pdftex.def Info: epidemic-sidarthe.png  used on input line 305.
+(pdftex.def)             Requested size: 89.22992pt x 59.48674pt.
+ [18
+
+ <./epidemic-sair.png> <./epidemic-fsir.png> <./epidemic-sixsir.png> <./epidemi
+c-siqr.png> <./epidemic-sidarthe.png>]
+<epidemic-combination.png, id=815, 650.43pt x 180.675pt>
+File: epidemic-combination.png Graphic file (type png)
+<use epidemic-combination.png>
+Package pdftex.def Info: epidemic-combination.png  used on input line 311.
+(pdftex.def)             Requested size: 278.83713pt x 77.45715pt.
+
+[19
+
+ <./epidemic-combination.png>]
+<epidemic-periodic-heatmap.png, id=857, 433.62pt x 289.08pt>
+File: epidemic-periodic-heatmap.png Graphic file (type png)
+<use epidemic-periodic-heatmap.png>
+Package pdftex.def Info: epidemic-periodic-heatmap.png  used on input line 319.
+
+(pdftex.def)             Requested size: 136.63171pt x 91.08714pt.
+<epidemic-periodic-contour.png, id=858, 433.62pt x 289.08pt>
+File: epidemic-periodic-contour.png Graphic file (type png)
+<use epidemic-periodic-contour.png>
+Package pdftex.def Info: epidemic-periodic-contour.png  used on input line 319.
+
+(pdftex.def)             Requested size: 136.63171pt x 91.08714pt.
+ [20
+
+ <./epidemic-periodic-heatmap.png> <./epidemic-periodic-contour.png>]
+<epidemic-sp-heatmap1.png, id=898, 433.62pt x 289.08pt>
+File: epidemic-sp-heatmap1.png Graphic file (type png)
+<use epidemic-sp-heatmap1.png>
+Package pdftex.def Info: epidemic-sp-heatmap1.png  used on input line 325.
+(pdftex.def)             Requested size: 136.63171pt x 91.08714pt.
+<epidemic-sp-heatmap2.png, id=899, 433.62pt x 289.08pt>
+File: epidemic-sp-heatmap2.png Graphic file (type png)
+<use epidemic-sp-heatmap2.png>
+Package pdftex.def Info: epidemic-sp-heatmap2.png  used on input line 325.
+(pdftex.def)             Requested size: 136.63171pt x 91.08714pt.
+ [21
+
+ <./epidemic-sp-heatmap1.png> <./epidemic-sp-heatmap2.png>] [22
 
 ]
-Overfull \hbox (21.17944pt too wide) in paragraph at lines 322--322
+Overfull \hbox (21.17944pt too wide) in paragraph at lines 353--353
 [] 
  []
 
-[19
+[23
 
 ]
 \tf@nav=\write7
@@ -1530,16 +1600,16 @@ Overfull \hbox (21.17944pt too wide) in paragraph at lines 322--322
 
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EBF2F24A26D03BC63A3787514733BC8A;1194.
+(rerunfilecheck)             Checksum: E62067E9F66A55573549945B6F018C2D;1311.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33451 strings out of 478994
- 633386 string characters out of 5858184
+ 33531 strings out of 478994
+ 635090 string characters out of 5858184
  1354877 words of memory out of 5000000
- 50246 multiletter control sequences out of 15000+600000
+ 50307 multiletter control sequences out of 15000+600000
  423890 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,737b,2100s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1567,10 +1637,10 @@ e/2021/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2021/t
 exmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
-Output written on main.pdf (19 pages, 1477528 bytes).
+Output written on main.pdf (23 pages, 1815437 bytes).
 PDF statistics:
- 906 PDF objects out of 1000 (max. 8388607)
- 831 compressed objects within 9 object streams
- 53 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1105 PDF objects out of 1200 (max. 8388607)
+ 1004 compressed objects within 11 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

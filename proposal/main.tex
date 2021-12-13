@@ -62,12 +62,11 @@
 \section{Outline}
 
 \begin{frame}{Presentation outline}
-	\vspace{15pt}
+	\vspace{5pt}
     \begin{enumerate}
-    	\item Background
-    	\item Chemotherapy
-    	\item Immunotherapy
-    	\item Epidemics
+    	\item Background     \vspace{0.2cm}
+    	\item Chemotherapy \vspace{0.2cm}
+    	\item Epidemics        \vspace{0.2cm}
     	\item Acknowledgement
     \end{enumerate}
 \end{frame}
@@ -289,8 +288,40 @@ Model is fitted to the tumor and immune data in mouse experiments.
 
 \begin{frame}{Optimize start time $t_s$ and duration $t_d$ of SD.}
 	\includegraphics[width=0.49\textwidth]{epidemic-sir-heatmap.png}
-	\includegraphics[width=0.49\textwidth]{epidemic-sir-contour.png} \\
+	\includegraphics[width=0.49\textwidth]{epidemic-sir-contour.png} \\ \vspace{0.5cm}
+	Infected peak, $\mbox{Max}(I)$, in \textit{SIR} model under single interval SD policy. The vertical dashed line represents the time of infected peak for a normal population with no distancing. The diagonal dashed line represents an analytically derived slope approximation.
+\end{frame}
 
+\begin{frame}{A common ``V'' shape pattern.}
+	Each model is simulated with parameters in the respective papers and thought to be appropriate, based on data available at the time, for the COVID-19 pandemic.\\  \vspace{0.5cm}
+	\hspace{1cm}  \textit{SIR} \hspace{2.5cm} \textit{SAIR} \hspace{2.1cm} \textit{f-SIR} \\
+	\includegraphics[width=0.32\textwidth]{epidemic-sir-heatmap.png}
+	\includegraphics[width=0.32\textwidth]{epidemic-sair.png}
+	\includegraphics[width=0.32\textwidth]{epidemic-fsir.png}\\
+	\hspace{0.8cm}  \textit{6-SIR} \hspace{2.3cm} \textit{SIQR} \hspace{1.8cm} \textit{SIDARTHE} \\
+	\includegraphics[width=0.32\textwidth]{epidemic-sixsir.png}
+	\includegraphics[width=0.32\textwidth]{epidemic-siqr.png}
+	\includegraphics[width=0.32\textwidth]{epidemic-sidarthe.png}
+\end{frame}
+
+\subsection{Periodic SD}
+\begin{frame}{Periodic relaxation is economically favorable.}
+	 A policy with regular periods of distancing and relaxation can significantly delay the time of the peak of the epidemic, while still allowing limited economic activity. \\ \vspace{1cm}
+	\includegraphics[width=1\textwidth]{epidemic-combination.png}
+\end{frame}
+
+\begin{frame}{Periodic relaxation and non-monotonicity}
+	The peak of infected population depends non-monotonically on both the period $T$ and ratio $r$ of periodic policies. \\ \vspace{0.5cm}
+	A periodic social distancing relaxation policy with a large period time $T$ may lead to high transmission rates at the critical time of an epidemic (e.g. at the potential peak of the infected population).  \\ \vspace{0.5cm}
+	Or it may lead to a well-timed strategy and hence significantly reduce the infected peak. \\ \vspace{0.5cm}
+	\includegraphics[width=0.49\textwidth]{epidemic-periodic-heatmap.png}
+	\includegraphics[width=0.49\textwidth]{epidemic-periodic-contour.png} 
+\end{frame}
+
+\begin{frame}{Periodic relaxation is economically favorable.}
+	Effect of periodic relaxation policy in combination with a single interval social distancing for \textit{SIR} model with. The dashed orange lines represent the infected compartment peak time without single interval social distancing policy. \\ \vspace{0.5cm}
+	\includegraphics[width=0.49\textwidth]{epidemic-sp-heatmap1.png}
+	\includegraphics[width=0.49\textwidth]{epidemic-sp-heatmap2.png} 
 \end{frame}
 
 \subsection{Singular perturbation}
@@ -320,177 +351,5 @@ Model is fitted to the tumor and immune data in mouse experiments.
 		\end{tabular}
 	}
 \end{frame}
-
-
-
-%\begin{frame}
-%	The basic definitions are from Miao et. al.~\footfullcite{miao2011identifiability}, for a general system:
-%	
-%	\begin{subequations}
-%		\begin{align}
-%			\dot x (t) &= f(t,x(t),u(t),\theta), \\
-%			y(t) &= g(x(t), u(t), \theta).
-%		\end{align}
-%	\end{subequations}
-%	
-%	\begin{itemize}
-%		\item $x(t) \in R^n$ is a vector of state variables.
-%		\item $y(t) \in R^m$ is the measurement or output vector.
-%		\item $u(t) \in R^p$ is the known system input vector.
-%		\item $\theta \in R^q$ the parameter vector.
-%		\item $\theta$ is unknown and has to be estimated based on experimental data. Here we assume that the parameters are constant.
-%	\end{itemize}
-%\end{frame}
-%
-%\subsection{Global identifiability}
-%
-%\begin{frame}{Global identifiabilty}
-%	\begin{itemize}
-%		\item \textbf{Definition: } A system structure is said to be globally identifiable if for any $\theta$ within an open neighborhood of some point $\theta^*$ in the parameter space, $y(u,\theta_1)=y(u,\theta_2)$ holds if and only if $\theta_1=\theta_2$.
-%		\item \textbf{Example: } The following model is globally identifiable.
-%			\begin{subequations} \label{eq:1}
-%				\begin{align}
-%					\dot x(t) &= a x(t) + b u(t), \\
-%					y(t) &= x(t).
-%				\end{align}
-%			\end{subequations}
-%		\item \textbf{Example: } The following model is not globally identifiable.
-%		\begin{subequations} \label{eq:2}
-%			\begin{align}
-%				\dot x(t) &= \frac{a}{c} x(t) + b u(t), \\
-%				y(t) &= x(t).
-%			\end{align}
-%		\end{subequations}
-%		$y(t)$ of parameter sets $\theta_1=(a,b,c)= (1,2,3)$ and $\theta_2=(a,b,c)= (2,2,6)$ are the same.
-%	\end{itemize}
-%	
-%\end{frame}
-%
-%\subsection{More definitions}
-%
-%\begin{frame}{More identifiabilty definitions}
-%	\begin{itemize}
-%		\item \textbf{Local identifiability: } A system structure is said to be locally identifiable if for any admissible input $u(t)$ and any two parameter vector $\theta_1$ and $\theta_2$ in the prameter space $\Theta$, $y(u,\theta_1) = y(u,\theta_2)$ holds if an only if $\theta_1=\theta_2$.
-%		\item \textbf{Local strong identifiability } ($x_0$-identifiability). 
-%		\item \textbf{Structural identifiability.} 
-%		\item \textbf{Algebric identifiability.} 
-%		\item \textbf{Algebric identifiability with known initial conditions.} 
-%		\item \textbf{Structural equivalence: } Given two systems in the form
-%		\begin{subequations}
-%			\begin{align}
-%				\dot x &= f(x(t,\theta)\theta) + u(t) g(x(t,\theta), \theta),\\
-%				y &= h(x(t,\theta),\theta)
-%			\end{align}
-%		\end{subequations}
-%		If there exist two parameters $\theta_1,\theta_2 \in \Theta$ such that, for the same admissible input $u(t)$, the solution of the two systems exists for $\theta_1$ and $\theta_2$, respectively, and the corresponding system outputs are the same, the system with parameters $\theta_1$ is said to be equivalent to the system with parameter $\theta_2$.
-%	\end{itemize}
-%	
-%\end{frame}
-%
-%
-%%-------------------------------------------------%
-%\section{SIAN}
-%
-%%\begin{frame}{Structural Identifiability Analyzer (SIAN)\footfullcite{hong2019sian}}
-%%	\begin{itemize}
-%%		\item Open source structural identifiability software in Maple.
-%%		\item Here is a benchmark for comparing SIAN performance with other available identifiability pacakges.
-%%			\begin{figure}
-%%				\includegraphics[width=1\linewidth]{sian-benchmark.png}
-%%			\end{figure}
-%%		\item A Maple app running SIAN online: \url{https://maple.cloud/app/6509768948056064}.
-%%		\item A Julia package which often outperforms SIAN: \url{https://github.com/SciML/StructuralIdentifiability.jl}.
-%%	\end{itemize}
-%%\end{frame}
-%
-%
-%\subsection{Basic examples}
-%
-%\begin{frame}[fragile]{Copy the following examples into Maple cloud app.}
-%	Model \eqref{eq:1} where the parameters and initial conditions should be locally and globally identifiable:
-%	\begin{lstlisting}
-%		dx/dt = a*x + b*u(t)
-%		y=x
-%	\end{lstlisting}
-%\vspace{20pt}
-%	Model \eqref{eq:2} where $a$, and $c$ are not identifiable:
-%	\begin{lstlisting}
-%		dx/dt = a*x/c + b*u(t),
-%		y=x
-%	\end{lstlisting}
-%\end{frame}
-%
-%\subsection{Tumor growth}
-%
-%\begin{frame}[fragile]{Tumor growth model~\footfullcite{simeoni2004predictive}.}
-%	The minimal version of the tumor growth model with $n=2$:
-%	\begin{subequations}
-%		\begin{align}
-%			\dot x_1(t) &= \frac{\lambda_0 x_1(t)}{(1+(\frac{\lambda_0 y(t)}{\lambda_1})^\Psi)^\frac{1}{\Psi}} - k_2 x_1(t) u(t), \\
-%			\dot x_2(t) &= k_2 x_1(t) u(t) - k_1 x_2(t), \\
-%			y(t) &= x_1(t) + x_2(t).
-%		\end{align}
-%	\end{subequations}
-%	Let's try SIAN with the following code.
-%	\begin{lstlisting}
-%		dx1/dt = l0*x1/(1+(l0*y/l1)^P)^(1/P) - k2*x1*u(t),
-%		dx2/dt = k2*x1*u(t) - k1*x2,
-%		y = x1+x2
-%	\end{lstlisting}
-%	\color{red} error message:StringTools:-RegMatch. \\ 
-%	\color{black} The solution is to use an equivalence form of the model. But why?
-%	\begin{lstlisting}
-%		dx1/dt = x1*w-k2*u(t)*x1, 
-%		dx2/dt = k2*u(t)*x1-k1*x2,
-%		dz/dt = psi*(x1*w-k1*x2)*z/y,
-%		dw/dt = -(x1*w-k1*x2)*z*w/(y*(1+z)),
-%		y= x1+x2
-%	\end{lstlisting}
-%\end{frame}
-%
-%\subsection{Parameter as power}
-%
-%\begin{frame}{In general, the algorithm does not allow noninteger powers and powers being parameters~\footnote{https://github.com/pogudingleb/SIAN/issues/2}}
-%	
-%	The solution is to define intermediate variables $z(t)$ and $w(t)$:
-%	\begin{subequations}
-%		\begin{align}
-%			z(t) &= (\frac{\lambda_0 y(t)}{\lambda_1})^\Psi, \\
-%			w(t) &= \frac{\lambda_0}{(1+z(t))^\frac{1}{\Psi}}.
-%		\end{align}
-%	\end{subequations}
-%	Then dynamic can be rewritten in the following form.
-%	\begin{subequations}
-%		\begin{align}
-%			\dot x_1(t) &= x_1(t) w(t) - k_2 u(t) x_1(t), \\
-%			\dot x_2(t) &= k_2 u(t) x_1(t) - k_1 x_2(t), \\
-%			\dot z(t) &=  \frac{\Psi z(t)}{y(t)} \dot y(t) = 
-%			\frac{\Psi}{y(t)} (x_1(t) w(t) - k_1 x_2(t)), \\
-%			\dot w(t) &= - \frac{w(t) \dot z(t)}{\Psi (1+z(t))} = 
-%			- \frac{w(t) z(t)}{y(t) (1+z(t))} (x_1(t) w(t) - k_1 x_2(t)).
-%		\end{align}
-%	\end{subequations}
-%\end{frame}
-%
-%%-------------------------------------------------%
-%\section{Profile likelihood}
-%
-%\begin{frame}{Profile likelihood}
-%	\begin{itemize}
-%		\item Most useful to determine practical identifiability based on a given synthetic/expermental data.
-%		\item Practical identifiability $\Rightarrow$ structural identifiabiility.
-%		\item Structural identifiablity $\nRightarrow$ practical identifiablity.
-%		\vspace{10pt}
-%		\item An open source software in MATLAB~\footfullcite{raue2015data2dynamics}: 
-%		\url{https://github.com/Data2Dynamics/d2d}.
-%		\item An open source software in Python~\footfullcite{parra2020pdeparams}: \url{https://github.com/systemsmedicine/PDE_params}.
-%	\end{itemize}
-%\end{frame}
-%
-%\subsection{Basic examples}
-%
-%\begin{frame}
-%	content...
-%\end{frame}
 
 \end{document}
