@@ -9,18 +9,18 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {3}{1}{Model}{6}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{Metronomic}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Metronomic}{8}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{3}{Optimal control}{8}{0}{3}
+\beamer@subsectionintoc {3}{3}{Optimal control}{9}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{4}{MDOR}{11}{0}{3}
+\beamer@subsectionintoc {3}{4}{MDOR}{12}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Epidemic}{14}{0}{4}
+\beamer@sectionintoc {4}{Epidemic}{15}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{1}{Singel interval SD}{15}{0}{4}
+\beamer@subsectionintoc {4}{1}{Singel interval SD}{16}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{2}{Periodic SD}{19}{0}{4}
+\beamer@subsectionintoc {4}{2}{Periodic SD}{21}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{3}{Quasi steady state}{22}{0}{4}
+\beamer@subsectionintoc {4}{3}{Quasi steady state}{24}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Acknowledgment}{24}{0}{5}
+\beamer@sectionintoc {5}{Acknowledgment}{26}{0}{5}
