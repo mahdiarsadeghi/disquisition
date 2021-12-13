@@ -133,23 +133,27 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@subsectionpages {19}{21}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{4}{3}{22}{Singular perturbation}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{22}{Quasi steady state}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {4}{3}{1}{22/22}{Singular perturbation}{0}}
+\headcommand {\slideentry {4}{3}{1}{22/22}{Quasi steady state}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {22}{22}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {14}{22}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {22}{22}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{Acknowledgment}{23}{Acknowledgment}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{1}{23/23}{}{0}}
+\headcommand {\slideentry {4}{3}{2}{23/23}{Quasi steady state}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\beamer@sectionpages {23}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\gdef \inserttotalframenumber {23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {14}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {22}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Acknowledgment}{24}{Acknowledgment}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{24/24}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@partpages {1}{24}}
+\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\beamer@sectionpages {24}{24}}
+\headcommand {\beamer@documentpages {24}}
+\headcommand {\gdef \inserttotalframenumber {24}}
