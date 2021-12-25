@@ -1,3 +1,10 @@
+googleAnalytics = "G-3CCF1G8NWP"
+disqusShortname = "dissertation"
+disablePathToLower = true
+enableGitInfo = true
 baseURL = "https://mahdiarsadeghi/github.io/disquisition"
 languageCode = "en-us"
 title = "My New Hugo Site"
+BookRepo = 'https://github.com/mahdiarsadeghi/disquisition'
+BookCommitPath = 'commit'
+BookDateFormat = 'Jan 2, 2006'
