@@ -1,10 +1,10 @@
 googleAnalytics = "G-3CCF1G8NWP"
+baseURL = "https://mahdiarsadeghi/github.io/disquisition"
 disqusShortname = "dissertation"
 disablePathToLower = true
 enableGitInfo = true
-baseURL = "https://mahdiarsadeghi/github.io/disquisition"
 languageCode = "en-us"
 title = "Dissertation"
-BookRepo = 'https://github.com/mahdiarsadeghi/disquisition'
+BookRepo = 'https://github.com/mahdiarsadeghi/disquisition/docs'
 BookCommitPath = 'commit'
 BookDateFormat = 'Jan 2, 2006'
