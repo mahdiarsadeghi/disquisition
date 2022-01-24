@@ -19,34 +19,90 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{cowles2015hypothesis}{article}{}
-      \name{author}{1}{}{%
-        {{hash=361ec3d6ae2fd99eee69df7dabdda759}{%
-           family={Cowles},
-           familyi={C\bibinitperiod},
-           given={Henry\bibnamedelima M},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{einstein1937gravitational}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3ebf53e52a3ce84f0ffb8553200a6a63}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fc8bb495c63cdab3ba6923db2097e4c7}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {The University of Chicago Press}%
+        {Elsevier}%
       }
-      \strng{namehash}{361ec3d6ae2fd99eee69df7dabdda759}
-      \strng{fullhash}{361ec3d6ae2fd99eee69df7dabdda759}
-      \strng{bibnamehash}{361ec3d6ae2fd99eee69df7dabdda759}
-      \strng{authorbibnamehash}{361ec3d6ae2fd99eee69df7dabdda759}
-      \strng{authornamehash}{361ec3d6ae2fd99eee69df7dabdda759}
-      \strng{authorfullhash}{361ec3d6ae2fd99eee69df7dabdda759}
+      \strng{namehash}{1d26587715cb0f7db8af18fa1ee10645}
+      \strng{fullhash}{1d26587715cb0f7db8af18fa1ee10645}
+      \strng{bibnamehash}{1d26587715cb0f7db8af18fa1ee10645}
+      \strng{authorbibnamehash}{1d26587715cb0f7db8af18fa1ee10645}
+      \strng{authornamehash}{1d26587715cb0f7db8af18fa1ee10645}
+      \strng{authorfullhash}{1d26587715cb0f7db8af18fa1ee10645}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Isis}
-      \field{number}{3}
-      \field{title}{Hypothesis bound: Trial and error in the nineteenth century}
-      \field{volume}{106}
-      \field{year}{2015}
-      \field{pages}{635\bibrangedash 645}
-      \range{pages}{11}
+      \field{journaltitle}{Journal of the Franklin Institute}
+      \field{number}{1}
+      \field{title}{On gravitational waves}
+      \field{volume}{223}
+      \field{year}{1937}
+      \field{pages}{43\bibrangedash 54}
+      \range{pages}{12}
+    \endentry
+    \entry{mendel1996experiments}{article}{}
+      \name{author}{1}{}{%
+        {{hash=077935d446e16551d6aaa772e0f7aea3}{%
+           family={Mendel},
+           familyi={M\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{077935d446e16551d6aaa772e0f7aea3}
+      \strng{fullhash}{077935d446e16551d6aaa772e0f7aea3}
+      \strng{bibnamehash}{077935d446e16551d6aaa772e0f7aea3}
+      \strng{authorbibnamehash}{077935d446e16551d6aaa772e0f7aea3}
+      \strng{authornamehash}{077935d446e16551d6aaa772e0f7aea3}
+      \strng{authorfullhash}{077935d446e16551d6aaa772e0f7aea3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Verhandlungen des naturforschenden Vereins Brünn.) Available online: www. mendelweb. org/Mendel. html (accessed on 1 January 2013)}
+      \field{title}{Experiments in plant hybridization (1865)}
+      \field{year}{1996}
+    \endentry
+    \entry{fisher1919xv}{article}{}
+      \name{author}{1}{}{%
+        {{hash=080c7b813993bf6086f25dc255091c25}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Ronald\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Edinburgh Scotland Foundation}%
+      }
+      \strng{namehash}{080c7b813993bf6086f25dc255091c25}
+      \strng{fullhash}{080c7b813993bf6086f25dc255091c25}
+      \strng{bibnamehash}{080c7b813993bf6086f25dc255091c25}
+      \strng{authorbibnamehash}{080c7b813993bf6086f25dc255091c25}
+      \strng{authornamehash}{080c7b813993bf6086f25dc255091c25}
+      \strng{authorfullhash}{080c7b813993bf6086f25dc255091c25}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Earth and Environmental Science Transactions of the Royal Society of Edinburgh}
+      \field{number}{2}
+      \field{title}{XV.—The correlation between relatives on the supposition of Mendelian inheritance.}
+      \field{volume}{52}
+      \field{year}{1919}
+      \field{pages}{399\bibrangedash 433}
+      \range{pages}{35}
     \endentry
     \entry{zahreddine2013mechanisms}{article}{}
       \name{author}{2}{}{%
@@ -70,8 +126,8 @@
       \strng{authorbibnamehash}{12c5c10ddcf4f76e7c4a36ec716e5d3e}
       \strng{authornamehash}{12c5c10ddcf4f76e7c4a36ec716e5d3e}
       \strng{authorfullhash}{12c5c10ddcf4f76e7c4a36ec716e5d3e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in pharmacology}
@@ -108,8 +164,8 @@
       \strng{authorbibnamehash}{12ed4e9fc454819b0ae55170567652a5}
       \strng{authornamehash}{12ed4e9fc454819b0ae55170567652a5}
       \strng{authorfullhash}{12ed4e9fc454819b0ae55170567652a5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer Letters}
@@ -147,8 +203,8 @@
       \strng{authorbibnamehash}{8ee2c7805c801301e60072645ffa29c9}
       \strng{authornamehash}{8ee2c7805c801301e60072645ffa29c9}
       \strng{authorfullhash}{8ee2c7805c801301e60072645ffa29c9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mathematical biosciences and engineering: MBE}
@@ -207,8 +263,8 @@
       \strng{authornamehash}{f8f5ac4b5fb1f2c884f6a2227d901ad0}
       \strng{authorfullhash}{db65ea530aa9ca550c3249365780c5e9}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Apoptosis}
@@ -282,8 +338,8 @@
       \strng{authornamehash}{f8f5ac4b5fb1f2c884f6a2227d901ad0}
       \strng{authorfullhash}{4bab4fdf1a88cacece1e78928e174194}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer and Metastasis Reviews}
@@ -316,8 +372,8 @@
       \strng{authorbibnamehash}{241b51496f26a8768e141894fb206d37}
       \strng{authornamehash}{241b51496f26a8768e141894fb206d37}
       \strng{authorfullhash}{241b51496f26a8768e141894fb206d37}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer research}
@@ -360,8 +416,8 @@
       \strng{authorbibnamehash}{c120fec84ca3ddfa9bce675452851c6c}
       \strng{authornamehash}{c120fec84ca3ddfa9bce675452851c6c}
       \strng{authorfullhash}{23b3f63b91fe0222adf9b6489f84cbaf}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual review of immunology}
@@ -428,8 +484,8 @@
       \strng{authorbibnamehash}{4318926af4d8a71918b94b87ce5929e2}
       \strng{authornamehash}{4318926af4d8a71918b94b87ce5929e2}
       \strng{authorfullhash}{8a57cebe24a24d009d4d94d0fa9028d9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Oncoimmunology}
@@ -472,8 +528,8 @@
       \strng{authorbibnamehash}{a006125ad5228cec930eb2b8e4e61180}
       \strng{authornamehash}{a006125ad5228cec930eb2b8e4e61180}
       \strng{authorfullhash}{34d60ad2d636766397dddca890db664d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell Death and Differentiation}
@@ -507,8 +563,8 @@
       \strng{authornamehash}{229a08e723d94b4bd71e0f1b1e7a3d6f}
       \strng{authorfullhash}{229a08e723d94b4bd71e0f1b1e7a3d6f}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer letters}
@@ -546,8 +602,8 @@
       \strng{authorbibnamehash}{fdc0428df30fc7995b4aa5e7f1699181}
       \strng{authornamehash}{fdc0428df30fc7995b4aa5e7f1699181}
       \strng{authorfullhash}{fdc0428df30fc7995b4aa5e7f1699181}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Neoplasia}
@@ -615,8 +671,8 @@
       \strng{authorbibnamehash}{632ad5bebfd6084705b0c5d2453e5b62}
       \strng{authornamehash}{632ad5bebfd6084705b0c5d2453e5b62}
       \strng{authorfullhash}{8a60392bbad751430b1d9256e58c1888}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in immunology}
@@ -649,8 +705,8 @@
       \strng{authornamehash}{229a08e723d94b4bd71e0f1b1e7a3d6f}
       \strng{authorfullhash}{229a08e723d94b4bd71e0f1b1e7a3d6f}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Oncoimmunology}
@@ -688,8 +744,8 @@
       \strng{authorbibnamehash}{a57e4f094c6fea0d1d4921b41bb20dd1}
       \strng{authornamehash}{a57e4f094c6fea0d1d4921b41bb20dd1}
       \strng{authorfullhash}{a57e4f094c6fea0d1d4921b41bb20dd1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMC Cancer}
@@ -747,8 +803,8 @@
       \strng{authorbibnamehash}{5b2e720dfb4fc1af6de8e54bda9a80e6}
       \strng{authornamehash}{5b2e720dfb4fc1af6de8e54bda9a80e6}
       \strng{authorfullhash}{dda4aece3b0b66e64cddadd96f97987d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer Research}
@@ -801,8 +857,8 @@
       \strng{authorbibnamehash}{95ef4394206eae4f88f85724cd6c9d22}
       \strng{authornamehash}{95ef4394206eae4f88f85724cd6c9d22}
       \strng{authorfullhash}{f66665861beb785288aa7c34d3f986fe}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in Immunology}
@@ -841,8 +897,8 @@
       \strng{authorbibnamehash}{8c7d5e1fd4d244ab370486d8fa198df9}
       \strng{authornamehash}{8c7d5e1fd4d244ab370486d8fa198df9}
       \strng{authorfullhash}{48f9cf0170408e9ae77db9e80a6bf738}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Immunology}
@@ -876,8 +932,8 @@
       \strng{authorbibnamehash}{4ba68ad3585aebb4d579f92d5d813ebb}
       \strng{authornamehash}{4ba68ad3585aebb4d579f92d5d813ebb}
       \strng{authorfullhash}{4ba68ad3585aebb4d579f92d5d813ebb}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer Immunology, Immunotherapy}
@@ -952,8 +1008,8 @@
       \strng{authorbibnamehash}{1ac3a771a353e3aa34aafda4972a2ed8}
       \strng{authornamehash}{1ac3a771a353e3aa34aafda4972a2ed8}
       \strng{authorfullhash}{394a40e0cc8233a9214bf021154661f0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Oncoimmunology}
@@ -987,8 +1043,8 @@
       \strng{authornamehash}{229a08e723d94b4bd71e0f1b1e7a3d6f}
       \strng{authorfullhash}{229a08e723d94b4bd71e0f1b1e7a3d6f}
       \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cancer Letters}
@@ -1190,39 +1246,45 @@
       \field{pages}{1\bibrangedash 20}
       \range{pages}{20}
     \endentry
-    \entry{patterson2014gpops}{article}{}
-      \name{author}{2}{}{%
-        {{hash=2967af21f70d17c064170709c2a8dfda}{%
-           family={Patterson},
-           familyi={P\bibinitperiod},
-           given={Michael\bibnamedelima A},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=008f904a1d9b7a9466f2e8466ab193b9}{%
-           family={Rao},
-           familyi={R\bibinitperiod},
-           given={Anil\bibnamedelima V},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+    \entry{2017_seyfried}{article}{}
+      \name{author}{4}{}{%
+        {{hash=74d7799a1fe82174e89fb8b003231715}{%
+           family={Seyfried},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=50305b2e4e9276b66f15ea8d1076d81b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9f5d49342d5948ecb4b5a94929f60c5f}{%
+           family={Maroon},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b4213a381e3b88a66b11b0f176134605}{%
+           family={D'Agostino},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {ACM New York, NY, USA}%
-      }
-      \strng{namehash}{7be059f329521b40d5d4fc908c8ac967}
-      \strng{fullhash}{7be059f329521b40d5d4fc908c8ac967}
-      \strng{bibnamehash}{7be059f329521b40d5d4fc908c8ac967}
-      \strng{authorbibnamehash}{7be059f329521b40d5d4fc908c8ac967}
-      \strng{authornamehash}{7be059f329521b40d5d4fc908c8ac967}
-      \strng{authorfullhash}{7be059f329521b40d5d4fc908c8ac967}
+      \strng{namehash}{17fa8e100069cfce03c653f7300951e9}
+      \strng{fullhash}{b6e78b2eb7c152619617ae31a0922961}
+      \strng{bibnamehash}{17fa8e100069cfce03c653f7300951e9}
+      \strng{authorbibnamehash}{17fa8e100069cfce03c653f7300951e9}
+      \strng{authornamehash}{17fa8e100069cfce03c653f7300951e9}
+      \strng{authorfullhash}{b6e78b2eb7c152619617ae31a0922961}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{ACM Transactions on Mathematical Software (TOMS)}
-      \field{number}{1}
-      \field{title}{GPOPS-II: A MATLAB software for solving multiple-phase optimal control problems using hp-adaptive Gaussian quadrature collocation methods and sparse nonlinear programming}
-      \field{volume}{41}
-      \field{year}{2014}
-      \field{pages}{1\bibrangedash 37}
-      \range{pages}{37}
+      \field{journaltitle}{Nutr Metab (Lond)}
+      \field{title}{{{P}ress-pulse: a novel therapeutic strategy for the metabolic management of cancer}}
+      \field{volume}{14}
+      \field{year}{2017}
+      \field{pages}{19}
+      \range{pages}{1}
     \endentry
     \entry{worldcoronavirus}{misc}{}
       \true{moreauthor}
@@ -1271,8 +1333,8 @@
       \strng{authorbibnamehash}{d83fe06032e4e56c08c8cb97319f4e19}
       \strng{authornamehash}{d83fe06032e4e56c08c8cb97319f4e19}
       \strng{authorfullhash}{d83fe06032e4e56c08c8cb97319f4e19}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Cost of the {COVID-19} Crisis: Lockdowns, Macroeconomic Expectations, and Consumer Spending}
@@ -1311,8 +1373,8 @@
       \strng{authorbibnamehash}{11bf8c16f49b0491f0577235a79f9494}
       \strng{authornamehash}{11bf8c16f49b0491f0577235a79f9494}
       \strng{authorfullhash}{541891eb03982afd9f58ced254696c8d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proc. Natl. Acad. Sci. U. S. A.}
@@ -1367,8 +1429,8 @@
       \strng{authorbibnamehash}{fb7bcc8c4bf7a30513f5385af022bc79}
       \strng{authornamehash}{fb7bcc8c4bf7a30513f5385af022bc79}
       \strng{authorfullhash}{1b6a68c8866d345a9181f62bf5b58460}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2003.09930}
@@ -1390,8 +1452,8 @@
       \strng{authornamehash}{44bd23200c1a7e90b4b04ebd08f698a9}
       \strng{authorfullhash}{44bd23200c1a7e90b4b04ebd08f698a9}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2004.13216}
@@ -1427,8 +1489,8 @@
       \strng{authorbibnamehash}{296798ddcc4745947eea67631f12a16d}
       \strng{authornamehash}{296798ddcc4745947eea67631f12a16d}
       \strng{authorfullhash}{ad0222d722d3404eb268db0962a574a8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2004.02209}
@@ -1482,8 +1544,8 @@
       \strng{authorbibnamehash}{34d0d7ce5de6dfd9dc8ff64d3122aeda}
       \strng{authornamehash}{34d0d7ce5de6dfd9dc8ff64d3122aeda}
       \strng{authorfullhash}{dfda85a83b5eccaaba1df0312644b157}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Medicine}
@@ -1516,8 +1578,8 @@
       \strng{authorbibnamehash}{1fe91e5642c44288ca18f324d861384f}
       \strng{authornamehash}{1fe91e5642c44288ca18f324d861384f}
       \strng{authorfullhash}{1fe91e5642c44288ca18f324d861384f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{3rd IFAC Workshop on Cyber-Physical \& Human Systems}
@@ -1543,8 +1605,8 @@
       \strng{authorbibnamehash}{c97bbbf479f03a71822d38ae8ecffe9d}
       \strng{authornamehash}{c97bbbf479f03a71822d38ae8ecffe9d}
       \strng{authorfullhash}{c97bbbf479f03a71822d38ae8ecffe9d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2008.06023}
@@ -1584,8 +1646,8 @@
       \strng{authornamehash}{7e6ef59d7ce2b3e464e3b315d0e03e18}
       \strng{authorfullhash}{b66907b7da7c50e8b764b6016ef7639a}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Theor. Biol.}
@@ -1622,8 +1684,8 @@
       \strng{authorbibnamehash}{406199c50d3695d9d94071566ece273e}
       \strng{authornamehash}{406199c50d3695d9d94071566ece273e}
       \strng{authorfullhash}{406199c50d3695d9d94071566ece273e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{bioRxiv}
@@ -2616,8 +2678,8 @@
       \strng{authorbibnamehash}{7b8fac63153a95b99876401455df5c02}
       \strng{authornamehash}{7b8fac63153a95b99876401455df5c02}
       \strng{authorfullhash}{7b8fac63153a95b99876401455df5c02}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chaos, Solitons \& Fractals}
@@ -2644,8 +2706,8 @@
       \strng{authorbibnamehash}{3161d14414d8e0ee33526f63a17b7404}
       \strng{authornamehash}{3161d14414d8e0ee33526f63a17b7404}
       \strng{authorfullhash}{3161d14414d8e0ee33526f63a17b7404}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PLoS computational biology}
@@ -2669,8 +2731,8 @@
       \strng{authornamehash}{44bd23200c1a7e90b4b04ebd08f698a9}
       \strng{authorfullhash}{44bd23200c1a7e90b4b04ebd08f698a9}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2004.13216}
@@ -2699,8 +2761,8 @@
       \strng{authorbibnamehash}{cf8b05ff2e372b4ededf9777194d5ad6}
       \strng{authornamehash}{cf8b05ff2e372b4ededf9777194d5ad6}
       \strng{authorfullhash}{cf8b05ff2e372b4ededf9777194d5ad6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{medRxiv}
@@ -3341,8 +3403,8 @@
       \strng{authorbibnamehash}{09d3af70f8c4e977c787feca579262d9}
       \strng{authornamehash}{09d3af70f8c4e977c787feca579262d9}
       \strng{authorfullhash}{6bc350560f45f0923f8812e666715f15}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{University of Chicago, Becker Friedman Institute for Economics Working Paper}
@@ -3414,8 +3476,8 @@
       \strng{authorbibnamehash}{f8bcde777a651401462cb22027667d8f}
       \strng{authornamehash}{f8bcde777a651401462cb22027667d8f}
       \strng{authorfullhash}{b8f942b1c4c1ff3b8cbd5cb38eff807f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annals of Internal Medicine}

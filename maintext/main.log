@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  12 DEC 2021 08:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  10 JAN 2022 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -739,20 +739,6 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-
-! LaTeX Error: Command \lineref already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \newcommand{\lineref}[1]{line~\ref{#1}}
-                                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 (/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip74
@@ -1071,58 +1057,75 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+) [2
+
+
+])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [2
 
-
-]
-(./main.lof)
+[3] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [3
+ [4
 
 ] (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- (./tex/acronyms.tex [4
+ (./tex/acronyms.tex [5
 
-])
-(./tex/acknowledgments.tex [5
+]
 
-] [6
+LaTeX Warning: Hyper reference `acro:AUC' on page vi undefined on input line 7.
 
-]) (./tex/abstract.tex [7
+
+
+LaTeX Warning: Hyper reference `acro:AUC' on page vi undefined on input line 7.
+
+
+) (./tex/acknowledgments.tex [6
+
+] [7
+
+]) (./tex/abstract.tex [8
 
 ]) (./tex/intro.tex
 Chapter 1.
-) (./tex/chemo.tex [1
+Package acronym Info: Label `acro:ODE' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+[1
 
-] [2]
+]
+Package acronym Info: Label `acro:NPI' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+Package acronym Info: Label `acro:LIGO' newly defined as it shall be overridden
+
+although it is yet undefined on input line 78.
+ [2] [3]) (./tex/chemo.tex [4]
 Chapter 2.
-Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
 Package acronym Info: Label `acro:SCID' newly defined as it shall be overridden
 
-although it is yet undefined on input line 4.
+although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:MDOR' newly defined as it shall be overridden
 
-although it is yet undefined on input line 4.
+although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:MTD' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
-[3
+although it is yet undefined on input line 10.
+[5
 
-] [4] [5] [6]
-Overfull \hbox (16.3783pt too wide) in paragraph at lines 41--70
+]
+Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
+although it is yet undefined on input line 19.
+ [6] [7] [8] [9]
+Overfull \hbox (16.3783pt too wide) in paragraph at lines 61--90
  [][] 
  []
 
-[7]
-Overfull \hbox (23.32106pt too wide) in paragraph at lines 89--91
+[10]
+Overfull \hbox (23.32106pt too wide) in paragraph at lines 109--111
 \OT1/ptm/m/n/10.95 (-20) with $\OML/cmm/m/it/10.95 ^^O$ \OT1/ptm/m/n/10.95 (-20
 ) rep-re-sent-ing a small de-vi-a-tion. Where $\OML/cmm/m/it/10.95 I[]$ \OT1/pt
 m/m/n/10.95 (-20) is the im-mune sys-tem level $\OT1/cmr/m/n/10.95 [\OML/cmm/m/
@@ -1132,53 +1135,103 @@ mm/m/it/10.95 ; I\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t[]\OT1/cmr/m/n/10.95
 r/m/n/10.95 )]$
  []
 
-Package acronym Info: Label `acro:AUC' newly defined as it shall be overridden
-although it is yet undefined on input line 94.
-[8
+[11
 
 
 ]
-
-LaTeX Warning: Reference `fig:oc' on page 9 undefined on input line 96.
-
-
-LaTeX Warning: Reference `fig:OP1' on page 9 undefined on input line 118.
-
-
-LaTeX Warning: Reference `fig:OP2' on page 9 undefined on input line 118.
+<fig/chemo_wu14_immune_dataset.png, id=401, 903.375pt x 285.9483pt>
+File: fig/chemo_wu14_immune_dataset.png Graphic file (type png)
+<use fig/chemo_wu14_immune_dataset.png>
+Package pdftex.def Info: fig/chemo_wu14_immune_dataset.png  used on input line 
+127.
+(pdftex.def)             Requested size: 433.62pt x 137.25798pt.
 
 
-LaTeX Warning: Reference `fig:OP3' on page 9 undefined on input line 118.
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 1
+28.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:OP4' on page 9 undefined on input line 118.
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 1
+28.
+See the caption package documentation for explanation.
+
+<fig/chemo_wu14_TD153_1CPA_corr.png, id=402, 410.4936pt x 323.7696pt>
+File: fig/chemo_wu14_TD153_1CPA_corr.png Graphic file (type png)
+<use fig/chemo_wu14_TD153_1CPA_corr.png>
+Package pdftex.def Info: fig/chemo_wu14_TD153_1CPA_corr.png  used on input line
+ 132.
+(pdftex.def)             Requested size: 130.08731pt x 102.6055pt.
+<fig/chemo_wu14_TD153_2CPA_corr.png, id=403, 410.4936pt x 323.7696pt>
+File: fig/chemo_wu14_TD153_2CPA_corr.png Graphic file (type png)
+<use fig/chemo_wu14_TD153_2CPA_corr.png>
+Package pdftex.def Info: fig/chemo_wu14_TD153_2CPA_corr.png  used on input line
+ 133.
+(pdftex.def)             Requested size: 130.08731pt x 102.6055pt.
+<fig/chemo_wu14_TD153_3CPA_corr.png, id=404, 410.4936pt x 323.7696pt>
+File: fig/chemo_wu14_TD153_3CPA_corr.png Graphic file (type png)
+<use fig/chemo_wu14_TD153_3CPA_corr.png>
+Package pdftex.def Info: fig/chemo_wu14_TD153_3CPA_corr.png  used on input line
+ 134.
+(pdftex.def)             Requested size: 130.08731pt x 102.6055pt.
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 1
+35.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:oc' on page 9 undefined on input line 118.
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 1
+35.
+See the caption package documentation for explanation.
 
-) (./tex/immune.tex [9] [10]
+<fig/chemo_wu14_immune_dataset_reordered_highlighted.png, id=405, 875.6715pt x 
+282.3348pt>
+File: fig/chemo_wu14_immune_dataset_reordered_highlighted.png Graphic file (typ
+e png)
+<use fig/chemo_wu14_immune_dataset_reordered_highlighted.png>
+Package pdftex.def Info: fig/chemo_wu14_immune_dataset_reordered_highlighted.pn
+g  used on input line 139.
+(pdftex.def)             Requested size: 390.25534pt x 125.82597pt.
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 1
+40.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Cannot determine current font size.
+(caption)                Try setting it with `size=' explicitly on input line 1
+40.
+See the caption package documentation for explanation.
+
+) (./tex/immune.tex [12] [13 <./fig/chemo_wu14_immune_dataset.png (PNG copy)> <
+./fig/chemo_wu14_TD153_1CPA_corr.png> <./fig/chemo_wu14_TD153_2CPA_corr.png> <.
+/fig/chemo_wu14_TD153_3CPA_corr.png> <./fig/chemo_wu14_immune_dataset_reordered
+_highlighted.png>]
 Chapter 3.
-) (./tex/epidemic.tex [11
+) (./tex/epidemic.tex [14
 
 ]
 Chapter 4.
-[12
+[15
 
 ]
 Package acronym Info: Label `acro:SD' newly defined as it shall be overridden
 although it is yet undefined on input line 36.
-Package acronym Info: Label `acro:NPI' newly defined as it shall be overridden
-although it is yet undefined on input line 36.
- [13]
+ [16]
 Package acronym Info: Label `acro:QSS' newly defined as it shall be overridden
 although it is yet undefined on input line 57.
- [14]) (./tex/conclusion.tex [15]
+ [17]) (./tex/conclusion.tex [18]
 Chapter 5.
-) [16
+) [19
 
-] [17
+] [20
 
-] [18] [19]
+] [21] [22]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
 9.
 
@@ -1189,46 +1242,46 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [20] [21]
+ [23] [24]
 Overfull \hbox (25.9448pt too wide) in paragraph at lines 50--50
 []\OT1/ptm/m/n/10.95 (-20) Giuseppe Gaeta. ``Asymp-tomatic in-fec-tives and $\O
 ML/cmm/m/it/10.95 R[]$ \OT1/ptm/m/n/10.95 (-20) for COVID''. In: \OT1/ptm/m/it/
 10.95 (-20) arXiv preprint arXiv:2003.14098
  []
 
-[22]
+[25]
 Overfull \hbox (2.4797pt too wide) in paragraph at lines 50--50
 \OT1/ptm/m/n/10.95 (-20) Decision-Support Frame-work for Epi-demic Con-tain-men
 t''. In: \OT1/ptm/m/it/10.95 (-20) arXiv preprint arXiv:2010.00398
  []
 
-[23] [24] [25]
+[26] [27] [28]
 Appendix A.
-[26
+[29
 
 ]
 Appendix B.
 No file main.ind.
-[27
+[30
 
 ] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2C0334495C967F0D05EFCE24760D93DF;2746.
+(rerunfilecheck)             Checksum: E71BD5038BCBC9083E45C2E26F11663F;4924.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31305 strings out of 478994
- 580580 string characters out of 5858184
- 1288979 words of memory out of 5000000
- 47816 multiletter control sequences out of 15000+600000
- 442884 words of font info for 251 fonts, out of 8000000 for 9000
+ 31405 strings out of 478994
+ 582822 string characters out of 5858184
+ 1288341 words of memory out of 5000000
+ 47869 multiletter control sequences out of 15000+600000
+ 445263 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,20n,119p,2217b,1400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 118i,10n,119p,1842b,1459s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1244,10 +1297,10 @@ nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (35 pages, 232406 bytes).
+Output written on main.pdf (39 pages, 1834160 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
- 562 compressed objects within 6 object streams
- 174 named destinations out of 1000 (max. 500000)
- 54963 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 734 PDF objects out of 1000 (max. 8388607)
+ 664 compressed objects within 7 object streams
+ 196 named destinations out of 1000 (max. 500000)
+ 59164 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1,27 +1,47 @@
 \chapter{Chemotherapy}
 \label{chap:chemo}
 
-As the number of cancer treatments increases, together with the dose ranges that will be explored starting earlier in the clinical trial process as encouraged by the \ac{FDA} in Project Optimus, so does the need for more computationally guided approach to dose selection. While it is not experimentally feasible to explore the full spectrum of possible drug doses and regimens, especially if these parameters are allowed to vary from one drug injection to the next, a mathematical framework such as the one presented here can be used to sort through the countless possible combinations. In this work, we build upon a mathematical model that quantitatively captures the complex interactions between tumor, immune system, and a chemotherapy drug. The proposed model is calibrated with experimental data of \ac{SCID} mice implanted with aggressive treatment-resistant glioma tumors and treated with cyclopsphamide under a variety of dosing regimens to capture impact of drug dose and schedule on both the tumor and the immune cells. Next, by applying a numerical implementation of optimal control to this model, we show that the \ac{MDOR} for this mouse model is neither metronomic nor \ac{MTD} but instead constitutes administering a lower dose in the beginning of treatment, and then a larger dose after 35 days, resulting in maximal tumor control for the first 60 days. The discovered regimen can be interpreted from the lens of "press-pulse" notion in species extinction theory, when most frequent and expansive mass species extinctions occurred when ``press" disturbances on the population (such as climate or sea level change) weakened and destabilized populations over many generations, and were then followed by a ``pulse" disturbance that cause extensive mortality. This work highlights the ability of well constructed and validated mathematical models to provide insights into improved dosing and scheduling for long term tumor reduction, which can then be evaluated experimentally. By expanding application of optimal control to other mouse models and beyond, we can begin to uncover optimal treatment strategies in a quantitatively-guided way.
+This chapter proposes a computationally guided approach to dose selection in cancer treatments.
+As it is not experimentally feasible to explore the full spectrum of possible drug doses and regimens,
+a mathematical framework is used to sort through the countless possible combinations.
+Our approach is based upon a mathematical model that quantitatively captures the complex interactions between a tumor, the host immune system, and a chemotherapy drug.
+The proposed model is calibrated with experimental data collected from \ac{SCID} mice implanted with aggressive treatment-resistant glioma tumors.  A variety of cyclopsphamide doses and schedules are considered, and data is collected on both tumor volume and immune cell markers.
+After calibration, a \ac{MDOR} is computed using optimal control techniques.
+For this mouse model, we find that the \ac{MDOR} that minimizes tumor size after 60 days is neither a classical metronomic schedule nor a \ac{MTD} schedule.
+Instead, our \ac{MDOR} consists of administering a lower dose at the beginning of treatment, followed by a larger dose after 35 days.
+The discovered regimen is analogous to the ``press-pulse'' theory in ecology.  In that theory, frequent and expansive mass species extinctions occur after ``press'' disturbances (such as climate or sea level change) weaken and destabilize populations over many generations, and are then followed by a ``pulse'' disturbance that causes extensive mortality.
+This work highlights the ability of mathematical models derived from experimental data to provide insights into improved dosing and scheduling for long-term tumor reduction, to be subsequently experimentally evaluated.
 
-\section{Background}
-Finding the appropriate dosing and scheduling of a chemotherapy drug for a given tumor type is an exceedingly challenging task. The current standard of care limits the regimens used primarily to daily dose and \ac{MTD} treatments. A \ac{MTD} regimen attempts to reduce the tumor burden as much as tolerable by the patient with each treatment. In addition to potential severe side effects, the treatment can lose efficacy rapidly and give rise to drug resistance \cite{zahreddine2013mechanisms,kareva2015metronomic,shah2016limiting}. In addition to simply selectively killing non-resistant cells in a ``Darwin''-like fashion, high levels of cytotoxicity caused by \ac{MTD} treatments can greatly weaken the host immune system \cite{kareva2015metronomic}, removing an important line of defense against resistant cells. Metronomic or ``intermittent'' chemotherapy treatments with lower dose amount and higher frequency than \ac{MTD} were shown to be able to induce an immune response alongside the cytotoxicity of the drug towards cancerous cells, at least in mouse models, and under specific treatment conditions \cite{kepp2009immunogenic,kepp2011molecular,doloff2012vegf,kroemer2013immunogenic,vacchelli2014trial,bracci2014immune,wu2014metronomic,chen2014intermittent,bezu2015combinatorial,wu2015metronomic,wu2016metronomic}. Furthermore, if the treatments are given too regularly such as seen in the case of daily dose treatments, the elicited immune response can be greatly attenuated \cite{wu2014metronomic}. An optimal treatment should ideally strike the right balance of both eliciting a strong immune response and still providing enough cytotoxicity towards cancer cells from the chemotherapy drug \cite{park2019goldilocks,tran2020delicate}.
+\section{Introduction}
+Finding the appropriate dosing and scheduling of a chemotherapy drug for a given tumor type is an exceedingly challenging task. The current standard of care limits the regimens used primarily to daily dose and \ac{MTD} treatments. A \ac{MTD} regimen attempts to reduce the tumor burden as much as tolerable by the patient with each treatment. In addition to potential severe side effects, the treatment can lose efficacy rapidly and give rise to drug resistance \cite{zahreddine2013mechanisms,kareva2015metronomic,shah2016limiting}. In addition to simply selectively killing non-resistant cells in a ``Darwin''-like fashion, high levels of cytotoxicity caused by \ac{MTD} treatments can greatly weaken the host immune system \cite{kareva2015metronomic}, removing an important line of defense against resistant cells. Metronomic or ``intermittent'' chemotherapy treatments with lower dose amount and higher frequency than \ac{MTD} were shown to be able to induce an immune response alongside the cytotoxicity of the drug towards cancerous cells, at least in mouse models, and under specific treatment conditions \cite{kepp2009immunogenic,kepp2011molecular,doloff2012vegf,kroemer2013immunogenic,vacchelli2014trial,bracci2014immune,wu2014metronomic,chen2014intermittent,bezu2015combinatorial,wu2015metronomic,wu2016metronomic}. On the other hand, if the treatments are given too regularly, such as seen in the case of daily dose treatments, the elicited immune response can be greatly attenuated \cite{wu2014metronomic}. An optimal treatment should ideally strike the right balance: eliciting a strong immune response yet still providing enough cytotoxicity towards cancer cells from the chemotherapy drug \cite{park2019goldilocks,tran2020delicate}.
 
-Only a subset of chemotherapy drug are known to induce this immunogenic cancer cell death pathway that produces a strong anti-cancer immune response. This effect is dependent on various factors that include the tumor type or subtype, the regimen that is being applied, as well as the class of chemotherapy drug. Drugs that are able to induce this immunostimulatory effect include cyclophopshamide, anthracyclines, 5-fluorouracil, mitoxantrone, idarubicin, and doxorubicin \cite{zitvogul2008,chen2013chemoimmunotherapy,bracci2014immune,vacchelli2014trial,pol2015trial}. In addition to using the appropriate drug, eliciting an anti-tumor immune response requires an appropriate balance of drug dosing and scheduling \cite{wu2018immunogenic,park2019goldilocks,tran2020delicate}. There remains much to be understood about the complex dynamics that leads to the observation of a strong immune recruitment in a 6-day repeating schedule (Q6D) at 140 mg/kg per dose of cyclophosphamide administered to treat GL261 glioma and 9L gliosarcoma tumors, a response that a daily dose or maximum tolerated treatment dose does not elicit to a noticeable extent \cite{wu2014metronomic,chen2014intermittent,doloff2012vegf}. Understanding how treatment strategies affect the dynamics and interactions between the drug, the immune system, and the tumor holds the key to developing more effective treatment strategies.
+Approaches like what is presented in this chapter, expanded to other mouse models and beyond, can begin to uncover optimal treatment strategies in a quantitatively-guided way,
+thus addressing the stated need to explore dosing ranges earlier in the clinical trial process, as encouraged by the \ac{FDA} in Project Optimus.
 
-Developing realistic mathematical models of these biological interactions is a challenging task due to the number of phenomena that need to be considered. The immune system alone needs various considerations for immune cell types, chemicals (cytokines and chemokines), and various roles that these immune cells can play (e.g. T-cells can be cytoxotic or memory). Each of these immune components has distinct dynamics that makes it difficult to predict the aggregate behavior of the biological system as a whole from its various components. There are additional factors to consider such as individual variability between patients, variability in the tumor, the drug used for treatment, and how the chosen drug is administered. The fact that a cytototoxic drug like cyclophosphamide can be both immunostimulatory and immunosuppressive in a metronomic treatment makes designing accurate mathematical representations of the interactions at play particularly difficult. There is a rich literature on mathematical models that attempt to capture the mechanisms behind cancer chemotherapy and how it affects the immune system \cite{de2005clinical,de2006mixed,ciccolini2017pharmacokinetics,park2019goldilocks}. There are also considerations that have been made to model drug resistance \cite{greene2019mathematical}.
+\subsection{Chemotherapy drugs with immunogenic response}
+Only a subset of chemotherapy drugs are known to induce an immunogenic cancer cell death pathway that produces a strong anti-cancer immune response. This effect is dependent on various factors, including the tumor type or subtype, the regimen that is being applied, and the class of chemotherapy drug. Drugs that are able to induce this type of immunostimulatory effect include cyclophopshamide, anthracyclines, 5-fluorouracil, mitoxantrone, idarubicin, and doxorubicin \cite{zitvogul2008,chen2013chemoimmunotherapy,bracci2014immune,vacchelli2014trial,pol2015trial}. In addition to using an appropriate drug, eliciting an anti-tumor immune response requires an appropriate balance of drug dosing and scheduling \cite{wu2018immunogenic,park2019goldilocks,tran2020delicate}. Much remains to be understood about the complex dynamics involved in this trade-off, as examplified by the observation of a strong immune recruitment in a 6-day repeating schedule (Q6D) at 140 mg/kg per dose of cyclophosphamide administered to treat GL261 glioma and 9L gliosarcoma tumors, a response that a daily dose or maximum tolerated treatment dose does not elicit to a noticeable extent \cite{wu2014metronomic,chen2014intermittent,doloff2012vegf}. Understanding how treatment strategies affect the dynamics and interactions between the drug, the immune system, and the tumor holds a key to developing more effective treatment strategies.
 
-A central idea that guided this chapter was coming up with a realistic representation of the phenomena that arise during a metronomic chemotherapy: drug-mediated suppression of the immune system, recruitment of immunostimulatory factors by the immunogenic cancer cell death pathway, drug resistance that arises during treatment, tumor-immune interactions, tumor growth, and drug pharmacokinetics. The parameters of the developed mathematical model are fitted to a large dataset of tumor trajectories for which the treatment conditions were varied \cite{wu2014metronomic}. Using this mathematical representation of the drug-immune-tumor interactions, a numerical optimal control scheme was used to find a potentially better treatment schedule for the analyzed data. The results illustrate the potential of model-guided chemotherapy treatments can potentially be one day used in the clinic.
+\subsection{Mathematical modeling of chemotherapy}
+Developing realistic mathematical models of these biological interactions is a challenging task, since a large number of phenomena need to be considered. A detailed model of the immune system alone needs consideration of different immune cell types and chemicals (cytokines and chemokines). Even for a given cell type, the same cell may play very different roles (e.g., T-cells can be cytotoxic or memory). Each of these immune components has distinct dynamics that makes it difficult to predict the aggregate behavior of the biological system as a whole from its various components. There are additional factors to consider in therapy, such as individual variability between patients, tumor heterogeneity, the particular drug used for treatment, and how the chosen drug is administered. The fact that a cytotoxic drug like cyclophosphamide can be both immunostimulatory and immunosuppressive in a metronomic treatment makes designing accurate mathematical representations of the interactions at play particularly difficult. Although there is a rich literature on mathematical models that attempt to capture the mechanisms behind cancer chemotherapy and how it affects the immune system \cite{de2005clinical,de2006mixed,ciccolini2017pharmacokinetics,park2019goldilocks}, as well as many attempts at modeling drug resistance (see e.g.\ \cite{greene2019mathematical} and references there), the particular question that we address has been less well studied.
 
-\section{Modeling}
+\subsection{Mathematically derived optimal regimen}
+In this work, a computationally guided approach to dose optimization for cancer treatments is proposed that takes account of some of the introduced myriad factors. The central idea is to formulate a realistic yet simplified and phenomenological representation of the phenomena that arise during chemotherapy: drug-mediated suppression of the immune system, recruitment of immunostimulatory factors by the immunogenic cancer cell death pathway, drug resistance that arises during treatment, tumor-immune interactions, tumor growth, and drug pharmacokinetics. The parameters of the developed mathematical model are fitted to a large experimental dataset of tumor trajectories collected from \ac{SCID} mice implanted with aggressive treatment-resistant glioma tumors. A variety of cyclopsphamide doses and schedules are included in this dataset, on both tumor and immune cell markers, and treatment conditions were varied in various ranges \cite{wu2014metronomic}. 
+After calibration of model parameters, we use optimal control techniques in order to compute what we call a \acf{MDOR}, derived as the strategy that minimizes tumor size at 60 days from the start of treatment. In contrast to a classical metronomic schedule or a \acf{MTD} schedule, our derived MDOR consists of administering a lower dose at the beginning of treatment, followed by a larger dose around half-way through the 60 days.
 
-A major challenge of modeling the immune system resides in the complex interactions between its components. Even using the \ac{SCID} mouse model as was used in  \cite{wu2014metronomic}, which eliminates the impact of B and T cells, maintains the impact of innate immune cells, such as NK cells, macrophages, dendritic cells, and neutrophils. An attempt to model each of these immune components individually greatly increases  model complexity and the number of parameters to be fitted, and may come even at a detriment to the model's ultimate utility. Instead, experimentally observed immune data from \cite{wu2014metronomic} can be clustered into the following three categories by response type :
-\begin{itemize}
-	\item an early response from immunostimulatory chemokines (e.g. CXCL9, CXCL10, CXCL11)
-	\item a correlated response from immune cell markers shortly after the release of immunostimulatory chemokines
-	\item the response of vascular endothelial growth factor A (VEGF-A), which is inversely correlated with the other measured immune cell markers
-\end{itemize}
+\subsection{Press-pulse theory}
+An analogy can be drawn between the proposed \ac{MDOR} and the ``press-pulse'' theory in ecology, in which frequent and expansive mass species extinctions occur after ``press'' disturbances (climate or sea level change, for example) create stress so that a subsequent ``pulse'' disturbance causes extensive mortality.
+Interestingly, a press-pulse therapeutic strategy for cancer management was also proposed in the very different context, that of calorie restricted ketogenic diets~\cite{2017_seyfried}, where such diets are proposed as a way to stress tumor cell energy metabolism.
 
-To build upon the previous modeling effort for this data set \cite{tran2020delicate}, and use it to apply optimal control techniques to find potential dosing and scheduling regimes that might be superior to the ones that were tested in the following section. 
+\subsection{Organization of this chapter}
+The rest of this paper is organized in three sections. Section~\ref{sec:methods} includes the descriptions of the mathematical model, parameter fitting, and optimal control problem setup that is used obtain the \ac{MDOR}. The mathematical model presented in this work is a modified version of the model presented in~\cite{tran2020delicate}, and, most importantly, expands the parameter fitting process to incorporate immune system data in addition to tumor volume data. The numerical optimal control results are used in the Results Section to derive a clinically feasible optimal regimen (\ac{MDOR}) and we analyze its sensitivity to dose values. The last section discusses the key findings of this paper.
+
+\section{Methods}
+\label{sec:methods}
+
+Here a mathematical model based on the previous modeling effort~\cite{tran2020delicate} for the data set~\cite{wu2014metronomic} is introduced. The model is fitted to tumor and immune data with aa customized cost function, and used to apply optimal control techniques to find potential dosing and scheduling regimes that might be superior to the ones that were tested before. 
+
+\subsection{Mathematical model}
+
 The model takes into account the effects of immune recruitment, drug resistance, and the complex interactions between the drug, the tumor, and the immune system. Compared to the model introduced in \cite{tran2020delicate}, here it has been modified to become more generalizable; specific modifications and the corresponding rationale are given below.
 \begin{subequations} \label{eq:chemo1}
 	\begin{align} 
@@ -35,39 +55,39 @@ The model takes into account the effects of immune recruitment, drug resistance,
 subjected to the following initial conditions $[T,I,X,Y,C](0)=[T_0,\frac{k_n}{k_o+T_0},0,0,0]$. The unit of phenomenological variables $C$, $I$, $X$, and $Y$ is 1, and the unit of variable $T$, tumor volume, is mm$^3$. A detailed description for each parameter and variable used in this model is presented in Table~\ref{table:chemo1}.
 %
 \begin{landscape}
-\begin{table}
-	\centering
-	\caption{Definition of the variables and parameters used in the model~\eqref{eq:chemo1}.}
-	\begin{tabular}{c c c c}
-		\hline
-		Parameter/Variable   & Unit          & Value & Definition\\ \hline
-		$T(t)$       & mm$^3$         & $T(0)=T_0$& Tumor volume\\ 
-		$I(t)$       & 1         & $I(0)=\frac{k_n}{k_o+T_0}$& Immune system \\ 
-		$X(t)$       & 1         & $X(0)=0$ & Immunostimulatory intermediate\\ 
-		$Y(t)$       & 1         & $Y(0)=0$ & Immunosuppressor intermediate\\ 
-		$C(t)$       & 1         & $C(0)=0$ & Drug (input)\\ 
-		$k_a$       & 1/day         & $1.555\times 10^{-1}$ & Tumor growth rate\\ 
-		$k_b$       & mm$^3$/day    & $1.334\times 10^{-1}$ & Cytotoxic effect rate of the drug on the tumor\\ 
-		$k_c$       & mm$^3$        & $5.195\times 10^{-1}$ & Saturation term of drug and tumor interaction \\
-		$k_d$       & 1/day         & $1.992\times 10^{-2}$ & Cytotoxic effect of the immune system on the tumor \\ 
-		$k_e$       & 1/day/mm$^3$  & $3.463\times 10^{-5}$ & Negative effect of the tumor on the immune system \\ 
-		$k_f$       & 1/day         & $2.940\times 10^{-1}$ & Cytotoxic effect of the drug on the immune system\\ 
-		$k_g$       & 1/day     & $6.497\times 10^{-1}$ & The immunosuppressor effect on the immune system\\ 
-		$k_h$       & 1/day     & $1.369\times 10^{-1}$ & The immune system natural decay rate\\ 
-		$k_i$       & mm$^3$    & $1.837\times 10^{-1}$ & Saturation term of the immunostimulatory recriutment term caused by the tumor debris\\ 
-		$k_j$       & 1/day     & $5.987\times 10^{-4}$ & The immunostimulatory natural decay rate \\ 
-		$k_k$       & 1/day     & $1.249\times 10^{-1}$ & The immunosuppression effect rate \\
-		$k_l$       & 1         & $1.435\times10^{-3}$  & Saturation term of immunosuppressor increase in response to the immune system  \\ 
-		$k_m$       & 1/day     & $3.997\times10^{-5}$  & Cytotoxic effect of the drug on the immunosuppressor intermediate\\
-		$k_n$       & mm$^3$    & $1.966\times 10^{+3}$ & Initial immune system parameter \\ 
-		$k_o$       & mm$^3$    & $2.040\times10^{-4}$  & Initial immune system parameter \\ 
-		$k_1$       & 1/day     & $1.525\times 10^{+2}$ & Mechaelis-Menton elimination term parameter\\ 
-		$k_2$       & 1         & $5.594\times 10^{+3}$ & Mechaelis-Menton elimination term parameter\\ 
-		$q$       & 1 /day        & 1 & Makes the phenamenological variables unitless. \\ 
-		\hline
-	\end{tabular}
-	\label{table:chemo1}
-\end{table}
+	\begin{table}
+		\centering
+		\caption{Definition of the variables and parameters used in the model~\eqref{eq:chemo1}.}
+		\begin{tabular}{c c c c}
+			\hline
+			Parameter/Variable   & Unit          & Value & Definition\\ \hline
+			$T(t)$       & mm$^3$         & $T(0)=T_0$& Tumor volume\\ 
+			$I(t)$       & 1         & $I(0)=\frac{k_n}{k_o+T_0}$& Immune system \\ 
+			$X(t)$       & 1         & $X(0)=0$ & Immunostimulatory intermediate\\ 
+			$Y(t)$       & 1         & $Y(0)=0$ & Immunosuppressor intermediate\\ 
+			$C(t)$       & 1         & $C(0)=0$ & Drug (input)\\ 
+			$k_a$       & 1/day         & $1.555\times 10^{-1}$ & Tumor growth rate\\ 
+			$k_b$       & mm$^3$/day    & $1.334\times 10^{-1}$ & Cytotoxic effect rate of the drug on the tumor\\ 
+			$k_c$       & mm$^3$        & $5.195\times 10^{-1}$ & Saturation term of drug and tumor interaction \\
+			$k_d$       & 1/day         & $1.992\times 10^{-2}$ & Cytotoxic effect of the immune system on the tumor \\ 
+			$k_e$       & 1/day/mm$^3$  & $3.463\times 10^{-5}$ & Negative effect of the tumor on the immune system \\ 
+			$k_f$       & 1/day         & $2.940\times 10^{-1}$ & Cytotoxic effect of the drug on the immune system\\ 
+			$k_g$       & 1/day     & $6.497\times 10^{-1}$ & The immunosuppressor effect on the immune system\\ 
+			$k_h$       & 1/day     & $1.369\times 10^{-1}$ & The immune system natural decay rate\\ 
+			$k_i$       & mm$^3$    & $1.837\times 10^{-1}$ & Saturation term of the immunostimulatory recriutment term caused by the tumor debris\\ 
+			$k_j$       & 1/day     & $5.987\times 10^{-4}$ & The immunostimulatory natural decay rate \\ 
+			$k_k$       & 1/day     & $1.249\times 10^{-1}$ & The immunosuppression effect rate \\
+			$k_l$       & 1         & $1.435\times10^{-3}$  & Saturation term of immunosuppressor increase in response to the immune system  \\ 
+			$k_m$       & 1/day     & $3.997\times10^{-5}$  & Cytotoxic effect of the drug on the immunosuppressor intermediate\\
+			$k_n$       & mm$^3$    & $1.966\times 10^{+3}$ & Initial immune system parameter \\ 
+			$k_o$       & mm$^3$    & $2.040\times10^{-4}$  & Initial immune system parameter \\ 
+			$k_1$       & 1/day     & $1.525\times 10^{+2}$ & Mechaelis-Menton elimination term parameter\\ 
+			$k_2$       & 1         & $5.594\times 10^{+3}$ & Mechaelis-Menton elimination term parameter\\ 
+			$q$       & 1 /day        & 1 & Makes the phenamenological variables unitless. \\ 
+			\hline
+		\end{tabular}
+		\label{table:chemo1}
+	\end{table}
 \end{landscape}
 %
 Tumor growth inhibition data has been previously used to identify the parameters in our previous work \cite{tran2020delicate}. Here, the objective function is defined to compare the tumor and immune data for fitting the parameters in model~\eqref{eq:chemo1}. It is made up of two components: $f_1(x)$ the error with respect to the tumor data and $f_2(x)$ the error with respect to the immune data. Where $x$ is a vector of fitting parameters represented in the model and introduced in table \ref{table:chemo1}, and $X$ is the physically meaningful parameters space search defined by upper bound and lower bound of each parameter. This is to incorporate both the experimentally measured tumor growth inhibition and immune markers into the model.
@@ -89,76 +109,36 @@ The error function used for the immune system is given by:
 \end{equation}
 with $\epsilon$ representing a small deviation. Where $I_{simulated}$ is the immune system level $[I(t_1), I(t_2), \dots, I(t_n)]$ at the same time points that $I_{measured}$ the immune system markers were measured $t_1, t_2, \dots, t_n$, and  $f_2(x)$ is the sum of the errors for all of the experimental immune data points.
 
-\section{Optimization}
 
-In the previous section we used the model to evaluate the relationship between drug exposure and mean tumor volume. The model revealed that more frequent dosing would counter-intuitively require higher drug exposure to achieve lower final tumor volume, while less frequent drug administration may achieve good tumor reduction with lower \ac{AUC}, unlike is expected from \ac{MTD} protocol. In this section we apply optimal control to further explore additional drug administration strategies, which may go beyond administering a fixed dose at fixed time intervals. 
+\subsection{Immune cell markers}
+A major challenge of modeling the immune system resides in the complex interactions between its components. Even using the \ac{SCID} mouse model as was used in  \cite{wu2014metronomic}, which eliminates the impact of B and T cells, maintains the impact of innate immune cells, such as NK cells, macrophages, dendritic cells, and neutrophils. An attempt to model each of these immune components individually greatly increases  model complexity and the number of parameters to be fitted, and may come even at a detriment to the model's ultimate utility. Instead, experimentally observed immune data from \cite{wu2014metronomic} can be clustered into the following three categories by response type:
+\begin{enumerate}
+	\item an early response from immunostimulatory chemokines (e.g. CXCL9, CXCL10, CXCL11),
+	\item a correlated response from immune cell markers shortly after the release of immunostimulatory chemokines,
+	\item the response of vascular endothelial growth factor A (VEGF-A), which is inversely correlated with the other measured immune cell markers.
+\end{enumerate}
 
-The optimal drug dosing strategy based on the mathematical model and fitted parameters defined in the previous section is implemented using a numerical optimal control software GPOPS-II~\cite{patterson2014gpops}. The output is shown in  Fig.~\ref{fig:oc}. To set up the optimal control problem, the following objective function and boundary conditions are used: 
+In Fig.~\ref{fig:immune_data}(a), we depict trends in the measured gene expression data of immune cells subject to different treatment regimens, as reported in \cite{wu2014metronomic}. As one can see in Fig.~\ref{fig:immune_data}(b), there exists a positive correlation between most immune markers with the exception CXCL9, CXCL10, CXCL11, and VEGF-A. For instance, unlike the other immune cell markers, VEGF-A (Fig.~\ref{fig:immune_data}(a)) initially decreases before increasing again, which results in negative correlation of VEGF-A and other immune cell markers. Finally, the immunostimulatory chemokines CXCL9, CXCL10 and CXCL11 are highlighted in Fig.~\ref{fig:immune_data}(c) showing how increase in their relative gene expression precedes that of immune cell markers. Using this information, we concluded that averaging the time-series data from the correlated immune markers should provide a realistic proxy for the drug-induced immune response, allowing us to proceed with a mathematical model of smaller dimensionality while preserving the key relationships observed in experimental data.
 
-\begin{align}  \label{eq:ocp}
-	\begin{split}
-		\min_{u(t)} & \quad T(t_f), \\
-		s.t. & \quad 
-		\begin{bmatrix}
-			0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0
-		\end{bmatrix} 
-		\leq
-		\begin{bmatrix}
-			C(t) \\ T(t) \\ I(t) \\ X(t) \\ Y(t) \\ u(t)
-		\end{bmatrix}
-		\leq
-		\begin{bmatrix}
-			C_m \\ T_m \\ I_m \\ X_m \\ Y_m \\ u_m
-		\end{bmatrix},
-		\\
-		& \quad \int_0^{t_f} u(t) dt \leq U_m.
-	\end{split}
-\end{align}
-%
-where $C_m=780$ mg/kg, $T_m=4000$ mm$^3$, $I_m=100$, $X_m=1000$, and $Y_m=1000$ are the maximum acceptable values for the state variables. Input upper bound $u_m$ is set to $1000$ 1/day (SI Figs.\ref{fig:OP1} and \ref{fig:OP2}) and $60$ 1/day (SI Figs. \ref{fig:OP3} and \ref{fig:OP4}) to setup two different optimal control problems for the numerical solver. Different input bounds are helpful to understand how instant large dose of drug is making different in the optimal control results. Boundary conditions for the state variables were identified through metronomic treatment simulations based on treatment constraints that were deemed reasonable. $U_m$ is the maximum possible total amount of drug used in aggregate. Other constraints were placed, such as $C_m$ to limit the maximum value of the phenomenological drug variable. The objective function $T(t_f)$ minimizes the tumor volume at the final time $t_f=60$ of the treatment. The boundary conditions $C_m=780$, and $U_m=1400$ are based on the standard 140 mg/kg Q6D treatment. Fig.~\ref{fig:oc}(a) compares the treatment outcome and administered drug dose of metronomic treatment with the optimal control problem with input bound of $u_m=60$.
-%
-%\begin{figure}[H]
-%	\centering
-%	\begin{subfigure}[b]{\textwidth}
-%		\centering
-%		\includegraphics[width=0.49\textwidth]{fig/chemo_1.jpeg}
-%		\includegraphics[width=0.49\textwidth]{fig/chemo_2.jpeg}
-%		\caption{}
-%	\end{subfigure}
-%	\begin{subfigure}[b]{\textwidth}
-%		\centering
-%		\includegraphics[width=1\textwidth]{fig/chemo_3.png}
-%		\caption{}
-%	\end{subfigure}
-%	
-%	\caption{Comparing a standard 140 mg/kg Q6D metronomic treatment with the obtained optimal control results. In (a), the tumor volume over the time for a metronomic chemotherapy with dose of 140mg/kg for every 6 days (solid line) compared with the final results of numerical optimal control (dashed line). In (b), a complete comparison between the time trajectories of the metronomic chemotherapy treatment plan with 140 mg/kg dose for every 6 days, and an \textit{optimal-based} treatment plan, that includes only two doses of chemotherapy (200 mg/kg at $t=0$ and 300 mg/kg at $t=35$), which is motivated by the numerical optimal control results. Tumor volume $T(t)$ is on the top left and drug kinetics term $C(t)$ is on the top right. Note that, our model assumes that the drug kinetics is independent of the tumor volume. Immune system, immunostimulatory and immunosuppresive are printed on the bottom with the same line type and colors.}
-%	\label{fig:oc}
-%\end{figure}
-%
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[width=1\textwidth]{fig/TumorSize_60_Final2Trajectories.png}
-%	\caption{Time trajectories of the state variables of the optimally controlled input. Boundary conditions are $C_m=780$, $T_m=4000$, $I_m=100$, $X_m=1000$, $Y_m=1000$, $u_m=1000$, and $U_m=1400$. Circles show the final collocation points. A higher density of circles on a line represent more computational complexity of the numerical solver.}
-%	\label{fig:OP1}
-%\end{figure}
-%
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[width=1\textwidth]{fig/TumorSize_60_Final2Immune.png}
-%	\caption{Projection of state variables presented in Figure~\ref{fig:OP1}. Circles show the final collocation points. A higher density of circles on a line represent more computational complexity of the numerical solver.}
-%	\label{fig:OP2}
-%\end{figure}
-%
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[width=1\textwidth]{fig/TumorSize_60_FinalTrajectories.png}
-%	\caption{Time trajectories of the state variables of the optimally controlled input with a lower bound. Boundary conditions are $C_m=780$, $T_m=4000$, $I_m=100$, $X_m=1000$, $Y_m=1000$, $u_m=60$, and $U_m=1400$. Circles show the final collocation points. A higher density of circles on a line represent more computational complexity of the numerical solver.}
-%	\label{fig:OP3}
-%\end{figure}
-%
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[width=1\textwidth]{fig/TumorSize_60_FinalImmune.png}
-%	\caption{Projection of state variables presented in Figure~\ref{fig:OP3}. Circles show the final collocation points. A higher density of circles on a line represent more computational complexity of the numerical solver.}
-%	\label{fig:OP4}
-%\end{figure}
+\begin{figure}
+	\centering
+	\begin{subfigure}[b]{\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{fig/chemo_wu14_immune_dataset.png}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}[b]{\textwidth}
+		\centering
+		\includegraphics[width=0.3\textwidth]{fig/chemo_wu14_TD153_1CPA_corr.png}
+		\includegraphics[width=0.3\textwidth]{fig/chemo_wu14_TD153_2CPA_corr.png}
+		\includegraphics[width=0.3\textwidth]{fig/chemo_wu14_TD153_3CPA_corr.png}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.9\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{fig/chemo_wu14_immune_dataset_reordered_highlighted.png}
+		\caption{}
+	\end{subfigure}
+	\caption[Immune cell markers]{Correlations and trends in the experimentally measured gene expression data of immune cells \cite{wu2014metronomic}. In (a), the time-series experimental data on the immune markers are shown for the 3 measured experimental conditions for which they were measured. In (b), the correlation analysis of the data in (a) is shown for the case of 1 dose and 3 doses of cyclophoshamide with a dose of 140 mg/kg and 6 days apart. In (c), the hypothesized immunostimulatory factors CXCL9, CXCL10, and CXCL11 are highlighted.}
+	\label{fig:immune_data}
+\end{figure}
