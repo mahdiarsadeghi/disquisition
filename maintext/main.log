@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  10 JAN 2022 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.29)  26 JAN 2022 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1139,12 +1139,32 @@ r/m/n/10.95 )]$
 
 
 ]
-<fig/chemo_wu14_immune_dataset.png, id=401, 903.375pt x 285.9483pt>
-File: fig/chemo_wu14_immune_dataset.png Graphic file (type png)
-<use fig/chemo_wu14_immune_dataset.png>
-Package pdftex.def Info: fig/chemo_wu14_immune_dataset.png  used on input line 
-127.
-(pdftex.def)             Requested size: 433.62pt x 137.25798pt.
+
+LaTeX Warning: File `fig/chemo_wu14_immune_dataset.png' not found on input line
+ 127.
+
+
+! Package pdftex.def Error: File `fig/chemo_wu14_immune_dataset.png' not found:
+ using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...width]{fig/chemo_wu14_immune_dataset.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+27.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
 Package caption Warning: Cannot determine current font size.
@@ -1158,24 +1178,46 @@ Package caption Warning: Cannot determine current font size.
 28.
 See the caption package documentation for explanation.
 
-<fig/chemo_wu14_TD153_1CPA_corr.png, id=402, 410.4936pt x 323.7696pt>
+<fig/chemo_wu14_TD153_1CPA_corr.png, id=401, 410.4936pt x 323.7696pt>
 File: fig/chemo_wu14_TD153_1CPA_corr.png Graphic file (type png)
 <use fig/chemo_wu14_TD153_1CPA_corr.png>
 Package pdftex.def Info: fig/chemo_wu14_TD153_1CPA_corr.png  used on input line
  132.
 (pdftex.def)             Requested size: 130.08731pt x 102.6055pt.
-<fig/chemo_wu14_TD153_2CPA_corr.png, id=403, 410.4936pt x 323.7696pt>
-File: fig/chemo_wu14_TD153_2CPA_corr.png Graphic file (type png)
-<use fig/chemo_wu14_TD153_2CPA_corr.png>
-Package pdftex.def Info: fig/chemo_wu14_TD153_2CPA_corr.png  used on input line
- 133.
-(pdftex.def)             Requested size: 130.08731pt x 102.6055pt.
-<fig/chemo_wu14_TD153_3CPA_corr.png, id=404, 410.4936pt x 323.7696pt>
-File: fig/chemo_wu14_TD153_3CPA_corr.png Graphic file (type png)
-<use fig/chemo_wu14_TD153_3CPA_corr.png>
-Package pdftex.def Info: fig/chemo_wu14_TD153_3CPA_corr.png  used on input line
- 134.
-(pdftex.def)             Requested size: 130.08731pt x 102.6055pt.
+
+LaTeX Warning: File `fig/chemo_wu14_TD153_2CPA_corr.png' not found on input lin
+e 133.
+
+
+! Package pdftex.def Error: File `fig/chemo_wu14_TD153_2CPA_corr.png' not found
+: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...idth]{fig/chemo_wu14_TD153_2CPA_corr.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `fig/chemo_wu14_TD153_3CPA_corr.png' not found on input lin
+e 134.
+
+
+! Package pdftex.def Error: File `fig/chemo_wu14_TD153_3CPA_corr.png' not found
+: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...idth]{fig/chemo_wu14_TD153_3CPA_corr.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Package caption Warning: Cannot determine current font size.
 (caption)                Try setting it with `size=' explicitly on input line 1
@@ -1188,14 +1230,23 @@ Package caption Warning: Cannot determine current font size.
 35.
 See the caption package documentation for explanation.
 
-<fig/chemo_wu14_immune_dataset_reordered_highlighted.png, id=405, 875.6715pt x 
-282.3348pt>
-File: fig/chemo_wu14_immune_dataset_reordered_highlighted.png Graphic file (typ
-e png)
-<use fig/chemo_wu14_immune_dataset_reordered_highlighted.png>
-Package pdftex.def Info: fig/chemo_wu14_immune_dataset_reordered_highlighted.pn
-g  used on input line 139.
-(pdftex.def)             Requested size: 390.25534pt x 125.82597pt.
+
+LaTeX Warning: File `fig/chemo_wu14_immune_dataset_reordered_highlighted.png' n
+ot found on input line 139.
+
+
+! Package pdftex.def Error: File `fig/chemo_wu14_immune_dataset_reordered_highl
+ighted.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 ...immune_dataset_reordered_highlighted.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Package caption Warning: Cannot determine current font size.
 (caption)                Try setting it with `size=' explicitly on input line 1
@@ -1208,10 +1259,10 @@ Package caption Warning: Cannot determine current font size.
 40.
 See the caption package documentation for explanation.
 
-) (./tex/immune.tex [12] [13 <./fig/chemo_wu14_immune_dataset.png (PNG copy)> <
-./fig/chemo_wu14_TD153_1CPA_corr.png> <./fig/chemo_wu14_TD153_2CPA_corr.png> <.
-/fig/chemo_wu14_TD153_3CPA_corr.png> <./fig/chemo_wu14_immune_dataset_reordered
-_highlighted.png>]
+
+LaTeX Warning: Float too large for page by 544.66191pt on input line 144.
+
+) (./tex/immune.tex [12] [13 <./fig/chemo_wu14_TD153_1CPA_corr.png>]
 Chapter 3.
 ) (./tex/epidemic.tex [14
 
@@ -1231,18 +1282,7 @@ Chapter 5.
 
 ] [20
 
-] [21] [22]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
-9.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [23] [24]
+] [21] [22] [23] [24]
 Overfull \hbox (25.9448pt too wide) in paragraph at lines 50--50
 []\OT1/ptm/m/n/10.95 (-20) Giuseppe Gaeta. ``Asymp-tomatic in-fec-tives and $\O
 ML/cmm/m/it/10.95 R[]$ \OT1/ptm/m/n/10.95 (-20) for COVID''. In: \OT1/ptm/m/it/
@@ -1275,10 +1315,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31405 strings out of 478994
- 582822 string characters out of 5858184
+ 31461 strings out of 478994
+ 584732 string characters out of 5858184
  1288341 words of memory out of 5000000
- 47869 multiletter control sequences out of 15000+600000
+ 47909 multiletter control sequences out of 15000+600000
  445263 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,10n,119p,1842b,1459s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1297,10 +1337,10 @@ nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (39 pages, 1834160 bytes).
+Output written on main.pdf (39 pages, 368651 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
+ 730 PDF objects out of 1000 (max. 8388607)
  664 compressed objects within 7 object streams
  196 named destinations out of 1000 (max. 500000)
- 59164 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 59144 words of extra memory for PDF output out of 61914 (max. 10000000)
 
