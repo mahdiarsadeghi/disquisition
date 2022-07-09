@@ -1,18 +1,27 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[105] biber-darwin:340> INFO - === Mon Jan 10, 2022, 06:04:14
-[144] Biber.pm:415> INFO - Reading 'main.bcf'
-[254] Biber.pm:952> INFO - Found 90 citekeys in bib section 0
-[268] Biber.pm:4340> INFO - Processing section 0
-[287] Biber.pm:4531> INFO - Looking for bibtex format file 'ref.bib' for section 0
-[306] bibtex.pm:1689> INFO - LaTeX decoding ...
-[536] bibtex.pm:1494> INFO - Found BibTeX data source 'ref.bib'
-[719] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'zitvogul2008' is not an integer - this will probably not sort properly.
-[1091] Utils.pm:395> WARN - legacy month field 'May' in entry 'NBERw27275' is not an integer - this will probably not sort properly.
-[1263] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1263] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1263] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1263] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1324] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1395] bbl.pm:757> INFO - Output to main.bbl
-[1395] Biber.pm:128> INFO - WARNINGS: 2
+[97] biber-darwin:340> INFO - === Sat Jul  9, 2022, 08:50:04
+[143] Biber.pm:415> INFO - Reading 'main.bcf'
+[259] Biber.pm:952> INFO - Found 136 citekeys in bib section 0
+[272] Biber.pm:4340> INFO - Processing section 0
+[291] Biber.pm:4531> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[310] bibtex.pm:1689> INFO - LaTeX decoding ...
+[613] bibtex.pm:1494> INFO - Found BibTeX data source 'ref.bib'
+[617] Utils.pm:395> WARN - Duplicate entry key: 'spitzer1970interaction' in file 'ref.bib', skipping ...
+[618] Utils.pm:395> WARN - Duplicate entry key: 'macdonald1968kinetics' in file 'ref.bib', skipping ...
+[1549] Utils.pm:395> WARN - legacy month field 'May' in entry 'NBERw27275' is not an integer - this will probably not sort properly.
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 130, warning: undefined macro "CDC25"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 139, warning: undefined macro "SIAM"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 169, warning: undefined macro "PLOSCB"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 186, warning: undefined macro "J_PHYS_A"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 247, warning: undefined macro "TCBB"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 273, warning: undefined macro "TAC"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 276, warning: undefined macro "ta"
+[1652] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/g1/y69vlg2934d535d8k514spc80000gp/T/biber_tmp_bRHU/e800e2552f53b910154f366d4c3730d7_46539.utf8, line 320, warning: undefined macro "TCBB"
+[1766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1766] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1766] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1889] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2017] bbl.pm:757> INFO - Output to main.bbl
+[2017] Biber.pm:128> INFO - WARNINGS: 11

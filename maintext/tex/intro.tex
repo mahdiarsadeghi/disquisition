@@ -40,7 +40,7 @@ In theory, models that are based on the existing knowledge (data) are being used
 Some of the newly generated hypothesis can be tested by using the existing data, which is common in data science.
 Other hypotheses require a new data set being generated for testing.
 In practice a hypothesis that is formed based on the existing knowledge, have to be tested with a new experiment design.
-Two of the most examples in scientific discoveries are stated in the following.
+In the following, two of the most important scientific discoveries as an example of the presented analogy between theory and practice.
 
 \begin{figure}
 	\centering 
@@ -66,36 +66,65 @@ Two of the most examples in scientific discoveries are stated in the following.
 		\node at (-6,4.5)[font=\Large]    {Practice};
 		\node at (+6,4.5)[font=\Large]    {Thoery};
 	\end{tikzpicture}
-	 \caption[Theory and practice]{Theory and practice in research: In practice, the left circle, the objective is to come up with a new experiment design that can produce a data set for answering a scientific hypothesis. In theory, the right circle, the objective is to use a model that \textit{reasonably} represents the existing data to come up with new predictions and hypotheses. In data science, the objective is to come up with new hypotheses that can be answered with the existing data sets, which is becoming more popular.}
+	 \caption[Theory and practice]{Theory and practice in research: 
+	 	In practice, the left circle, the objective is to come up with a new experiment design that can produce a data set for answering a scientific hypothesis. 
+	 	In theory, the right circle, the objective is to use a model that \textit{reasonably} represents the existing data to come up with new predictions and hypotheses. 
+	 	In data science, the objective is to come up with new hypotheses that can be answered with the existing data sets, which is becoming more popular.}
 	 \label{fig:1}
 \end{figure}
 
 \subsection{Gravitational waves}
+
+By considering models as a framework to generalize the previous experimental data. 
+One could have the power of predicting the results of experiments that has not existed before.
+The discovery of gravitational waves is one the most important examples for models that could predict above and beyond the present data.
 
 Gravity has been the most basic and mysterious force in physics.
 Understanding gravity is one of the examples that started with theory and mathematical models. 
 Einstein predicted gravitational waves in 1937~\cite{einstein1937gravitational} based on his theory of relativity. 
 But the universe's gravitational waves have not been detected until 2015, when a large group of researchers used \ac{LIGO}, and they recieved the 2017 Nobel prise in physics.
 
+
+
 \subsection{Genetic heredity}
+
+A scientific descovery without a proper model is missing a key feature. 
+Genetic heredity is one of the most imporant examples for this scenario. 
+Hypothesis could be frequently made from the data, but whether the hypothesis is true or not requires regorious analysis.
+Statistical analysis, that are based on statistical models, are frequently used in data science to answer hypothetical questions from the data.
 
 Mendel used pea plants for cross-breeding experiments to discover the fundamental laws of genetic inheritance~\cite{mendel1996experiments}.
 The discovery of the law of segregation, the law of indepdents assortment, and the law of dominance took him eight years, when he grew over 10,000 pea plants to track their genetic heredity.
 Mendel's dicovery was not widely accepted in scientific communities until Fisher pushlished a statistical analysis of Mendel's data~\cite{fisher1919xv}.
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Focus}
+\section{Focus of the dissertation}
 
 Trial and error has been the fundamental method in practice. Trial comes from the Anglo-French trier meaning ``to try", and error means ``a mistake". 
 The procedue of trial and error strats by testing a hypothesis that might pass or fail, and iterating over modified versions of the starting hypothesis until it gets to a desired solution.
 The focus of this work is to utalize mathematical models in order to speed up the trail and error process. 
-The number of possible experiment designs are not limited and mathematical models are capable to bring more insight into the problem to optimize the number of tries.
+The number of possible experiment designs are often at a combinatorial scale, and mathematical models are necessary to bring more insight into the problem to optimize the number of tries.
+
+Most achievements of biotechnology in pharmaceutical industry  on \emph{platform} thinking.
+\emph{platform} is a machine that could automatically repeat exeriments with the desired inputs.
+\emph{Platform}s are automated systems that enable scientist to make new discoveries with more depth, and speed. 
+In other words, if the left hand side of Figure~\ref{fig:1} (practice) is automated then scientist could spend more time on biology, the right hand side of Figure~\ref{fig:1} (theory), to deepen their understanding to make new discoveries.
+The focus of this dissertation is the theoretical aspect of biological discoveries. 
+For example, performing feasability study to answer hypothetical questions of the experimentalists, or optimization study to identify what changes of the input could optimize the objective. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Organization}
+\section{Organization of this work}
 
 Each of the following chapter in this work constits of using mathematical models for control of a biological systems. 
-Chapter~\ref{chap:chemo} is based on \textit{in-vivo} experiments of a chemotherapy drug.
-Chapter~\ref{chap:immune} is dedicated to bispecific T-cell engagers. 
+The contributions made in this work are both mathematical and computational based on the very specific applications.
+Each chapter is written independently.
+While, the models used here are considered to be generic and applicable to applications outside the focus of each study.
+The reader is encouraged to consider specific chapters of their interest.
+
+Chapter~\ref{chap:rfm} is based on a dynamic model of traslation process, \ac{RFM}.
+This project started by a question from one of the experimentalist, who thought it could be possible to change the inflow/outflow rates of ribosomes experimentally, and asked if the mRNA translation speed can be increased by using a periodic input. 
+Early numerical results of the model was not in favor of periodic inputs.
+Meanwhile, theoretically it become an interesting tast to prove that constant inputs are always better for such a system.
+The rest of this dissertation is less theoretical.
 Chapter~\ref{chap:epidemic} discusses social distancing in compartmental epidemic models.
+Chapter~\ref{chap:immune} is dedicated to bispecific T-cell engagers. 

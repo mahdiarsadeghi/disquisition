@@ -1,57 +1,97 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{iv}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{iv}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{v}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{v}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Acronyms}{vi}{chapter*.4}%
+\contentsline {chapter}{List of Acronyms}{vi}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{vii}{chapter*.5}%
+\contentsline {chapter}{Acknowledgments}{viii}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abstract of the {Dissertation}}{viii}{chapter*.6}%
+\contentsline {chapter}{Abstract of the {Dissertation}}{ix}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Background}{1}{chapter.7}%
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Theory and practice}{2}{section.10}%
+\contentsline {section}{\numberline {1.1}Theory and practice}{2}{section.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Gravitational waves}{2}{subsection.12}%
+\contentsline {subsection}{\numberline {1.1.1}Gravitational waves}{2}{subsection.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Genetic heredity}{4}{subsection.14}%
+\contentsline {subsection}{\numberline {1.1.2}Genetic heredity}{4}{subsection.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Focus}{4}{section.15}%
+\contentsline {section}{\numberline {1.2}Focus of the dissertation}{4}{section.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Organization}{4}{section.16}%
+\contentsline {section}{\numberline {1.3}Organization of this work}{5}{section.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Chemotherapy}{5}{chapter.17}%
+\contentsline {chapter}{\numberline {2}Periodic Flow of Ribosomes}{6}{chapter.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{6}{section.21}%
+\contentsline {section}{\numberline {2.1}Introduction}{6}{section.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Chemotherapy drugs with immunogenic response}{6}{subsection.23}%
+\contentsline {subsection}{\numberline {2.1.1}Example}{9}{subsection.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Mathematical modeling of chemotherapy}{7}{subsection.24}%
+\contentsline {subsection}{\numberline {2.1.2}Periodic excitation}{9}{subsection.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Mathematically derived optimal regimen}{7}{subsection.25}%
+\contentsline {subsection}{\numberline {2.1.3}Bottleneck entrance}{10}{subsection.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Press-pulse theory}{8}{subsection.26}%
+\contentsline {subsection}{\numberline {2.1.4}Problem Formulation}{13}{subsection.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Organization of this chapter}{8}{subsection.27}%
+\contentsline {subsection}{\numberline {2.1.5}Structure of this chapter}{13}{subsection.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Methods}{8}{section.28}%
+\contentsline {section}{\numberline {2.2}Numerical simulations}{13}{section.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Mathematical model}{8}{subsection.29}%
+\contentsline {subsection}{\numberline {2.2.1}Example}{14}{subsection.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Immune cell markers}{12}{subsection.39}%
+\contentsline {subsection}{\numberline {2.2.2}Harmonic functions}{15}{subsection.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Immunotherapy}{14}{chapter.44}%
+\contentsline {section}{\numberline {2.3}Optimal periodic control}{16}{section.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Epidemics}{15}{chapter.45}%
+\contentsline {subsection}{\numberline {2.3.1}The case\nobreakspace {}$n=1$}{17}{subsection.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Optimal timing}{16}{section.47}%
+\contentsline {subsection}{\numberline {2.3.2}Pontryagin's maximum principle for periodic trajectories}{18}{subsection.88}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Singular purterbation approach}{17}{section.49}%
+\contentsline {subsection}{\numberline {2.3.3}The structure of an optimal control}{20}{subsection.113}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.51}%
+\contentsline {section}{\numberline {2.4}A single stage RFM with two inputs}{24}{section.156}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}First Appendix Headline}{29}{appendix.53}%
+\contentsline {subsection}{\numberline {2.4.1}Pontryagin's maximum principle}{25}{subsection.168}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Second Appendix Headline}{30}{appendix.54}%
+\contentsline {subsection}{\numberline {2.4.2}Characterization of of regular arcs}{26}{subsection.173}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}Characterization of of singular arcs}{26}{subsection.180}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.4}Admissible Switching Patterns}{28}{subsection.197}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}Suboptimality of admissible switching patterns}{32}{subsection.210}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Conclusion}{33}{section.220}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Bispecific T-cell engagers}{35}{chapter.226}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{35}{section.227}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Three-body model and the importance of binding kinetics}{40}{section.232}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Identifiability}{42}{section.245}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{In terms of state variables}{42}{section*.246}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{In terms of first integrals}{43}{section*.249}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Two experiments}{44}{section*.254}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Three experiments}{44}{section*.264}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Optimal binding kinetics}{45}{section.265}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Comparison between\nobreakspace {}\ac {BiTE} antibodies}{46}{section.268}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Bio-distribution}{52}{section.271}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Epidemics}{57}{chapter.294}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Optimal timing}{58}{section.296}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Singular purterbation approach}{59}{section.298}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}First Appendix Headline}{74}{appendix.301}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Second Appendix Headline}{75}{appendix.302}%
